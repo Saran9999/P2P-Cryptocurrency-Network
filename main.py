@@ -40,7 +40,7 @@ class Transaction:
         """String representing Tx Details
 
         Returns:
-            str: Tx Details of the form TxnID: IDx pays IDy C coins
+            str: Tx Details in the form TxnID: IDx pays IDy C coins
         """
         return f'{self.txid}: {self.sender} pays {self.receiver} {self.amount} coins'
 
