@@ -93,12 +93,56 @@ class Blockchain:
 
 class Peer:
     def __init__(self,name,id):
+        self.simtime = time.time()
         self.name = name
         self.ID = id
         self.is_slow = False
         self.cpuspeed = 1
         self.neighbor = []
-        
+        self.genesisblk = Block([],None)
+        self.genesisblk.blkid = '00000000000000000000000000000000'
+        self.listofblocks = [self.genesisblk]
+        self.lastblkarrivaltime = time.time()
+        self.localchain = Blockchain(self.genesisblk)
+        self.txnssent = []
+        self.txpool = []
+        self.blkqueue = {'00000000000000000000000000000000': self.simtime}
+
+    def Delay(self,other,msg):
+        size = 0
+        if isinstance(msg,Transaction):
+            size = 8000
+        elif isinstance(msg,Block):
+            size = 8*(10**6)
+        else:
+            print("Invalid msg type")
+            return
+        pij = np.random.uniform(10,500)/1000
+        cij = 5*(10**6)
+        if self.is_slow == False and other.is_slow == False:
+            cij = 100*(10**6)
+        prop = size/cij
+        queue_delay = np.random.exponential((size/cij),1)[0]
+        delay = pij+prop+queue_delay
+        return delay
+    
+    def sendtx(self,msg):
+        for others in self.neighbor:
+            if msg not in others.txpool:
+                others.txpool.append(msg)
+                others.sendtx(msg)
+
+    def sendblock(self,msg,delay):
+        for others in self.neighbor:
+            if msg not in others.listofblocks:
+                others.listofblocks.append(msg)
+                others.blkqueue[msg.blkid] = delay
+                t = delay+self.Delay(others,msg)
+                # check fork
+
+                others.sendblock(msg,t)
+
+
 
 class Network:
     def __init__(self,num,z0,z1):
@@ -122,19 +166,36 @@ class Network:
 
 
     def createNetwork(self):
-        graph = nx.Graph()
-        graph.add_nodes_from(range(self.n))
+        G = nx.Graph()
+        G.add_nodes_from(range(self.n))
+
+        num_neighbors_array = [random.randint(3,6) for _ in range(self.n)]
+        curr_list = list(range(self.n))
 
         for node in range(self.n):
-            num_edges = random.randint(3, 6)
-            neighbors = random.sample(list(set(range(self.n)) - {node}), num_edges)
-            self.all_peers[node] = neighbors
+            if node not in curr_list:
+                continue
+            curr_list.remove(node)
+            
+            if len(curr_list) < num_neighbors_array[node]:
+                return self.createNetwork()
+            
+            neighbors = random.sample(curr_list, max(num_neighbors_array[node], 0))
+            
             for neighbor in neighbors:
-                graph.add_edge(node, neighbor)
-        while not nx.is_connected(graph):
-            graph = self.createNetwork()
-        
-        return graph
+                G.add_edge(node, neighbor)
+                G.add_edge(neighbor, node)            
+                num_neighbors_array[neighbor] -= 1            
+                if num_neighbors_array[neighbor] == 0:
+                    curr_list.remove(neighbor)
+            if not curr_list:
+                break
+
+        while not nx.is_connected(G):
+            G = self.createNetwork()
+        for node in range(self.n):
+            self.all_peers[node] = [self.all_peers[p] for p in list(G.neighbors(node))]
+        return G
 
     def visualizeNetwork(self):
         nx.draw(self.graph, nx.spring_layout(self.graph), with_labels=True, font_weight='bold')
@@ -153,3 +214,4 @@ if __name__ == "__main__":
     # arg2 = args.z0
     network = Network(10,30,30)
     network.visualizeNetwork()
+    # print(np.random.exponential((96000/1050000),1)[0])
