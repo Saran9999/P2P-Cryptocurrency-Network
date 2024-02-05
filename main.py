@@ -72,22 +72,29 @@ class Block:
         self.miner = miner
         self.maxsize = 1e6
         self.plink = plink
+        self.valid = False
 
 class Blockchain:
-    def __init__(self,block):
-        self.blocklist = [block]
+    def __init__(self):
+        self.level = 0
+        self.genesisblk = Block([],None)
+        self.genesisblk.blkid = '00000000000000000000000000000000'
+        self.chain = [self.genesisblk]
+        self.blkdata = {self.genesisblk.blkid: time.time()}
+        self.blktree = {self.level : [self.genesisblk]}
 
-    def addBlock(self,newBlock):
-        for block in self.blocklist:
-            if newBlock.blkid == block.blkid:
-                print('Block is already present in chain')
-                return
-        newBlock.plink = self.blocklist[-1]
-        self.blocklist.append(newBlock)
+    def AddBlock(self,newblk):
+        if newblk.blkid in self.blkdata.keys():
+            print(f'{newblk.blkid} is already present in chain')
+            return
+        # if newblk.plink is None:
+        newblk.plink = self.chain[-1].blkid
+        self.chain.append(newblk)
+        self.blkdata[newblk.blkid] = newblk.timestamp
         return
     
     def printchain(self):
-        for b in self.blocklist:
+        for b in self.chain:
             print(f'Block ID: {b.blkid}')
         return
 
@@ -99,14 +106,13 @@ class Peer:
         self.is_slow = False
         self.cpuspeed = 1
         self.neighbor = []
-        self.genesisblk = Block([],None)
-        self.genesisblk.blkid = '00000000000000000000000000000000'
         self.listofblocks = [self.genesisblk]
         self.lastblkarrivaltime = time.time()
         self.localchain = Blockchain(self.genesisblk)
         self.txnssent = []
         self.txpool = []
         self.blkqueue = {'00000000000000000000000000000000': self.simtime}
+        self.txqueue = {}
 
     def Delay(self,other,msg):
         size = 0
@@ -126,18 +132,20 @@ class Peer:
         delay = pij+prop+queue_delay
         return delay
     
-    def sendtx(self,msg):
+    def sendtx(self,msg,delay):
         for others in self.neighbor:
             if msg not in others.txpool:
                 others.txpool.append(msg)
-                others.sendtx(msg)
+                t = delay+self.Delay(others,msg)
+                others.txqueue[msg.txid] = t
+                others.sendtx(msg,t)
 
     def sendblock(self,msg,delay):
         for others in self.neighbor:
             if msg not in others.listofblocks:
                 others.listofblocks.append(msg)
-                others.blkqueue[msg.blkid] = delay
                 t = delay+self.Delay(others,msg)
+                others.blkqueue[msg.blkid] = t
                 # check fork
 
                 others.sendblock(msg,t)
@@ -204,14 +212,13 @@ class Network:
 
 
 if __name__ == "__main__":
-    # parser = argparse.ArgumentParser(description='Peer2Peer Network')
-    # parser.add_argument('n', type=int, help='Number of Peers')
-    # parser.add_argument('z0', type=float, help='Percent of slow')
-    # parser.add_argument('z1', type=float, help='Percent of low CPU')
-    # parser.add_argument('Tx', type=float, help='Mean Time of exponential distribution')
-    # args = parser.parse_args()
-    # arg1 = args.n
-    # arg2 = args.z0
+    parser = argparse.ArgumentParser(description='Peer2Peer Network')
+    parser.add_argument('n', type=int, help='Number of Peers')
+    parser.add_argument('z0', type=float, help='Percent of slow')
+    parser.add_argument('z1', type=float, help='Percent of low CPU')
+    parser.add_argument('Tx', type=float, help='Mean Time of exponential distribution')
+    args = parser.parse_args()
+    arg1 = args.n
+    arg2 = args.z0
     network = Network(10,30,30)
     network.visualizeNetwork()
-    # print(np.random.exponential((96000/1050000),1)[0])
