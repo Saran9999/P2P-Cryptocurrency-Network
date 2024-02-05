@@ -6,6 +6,8 @@ import uuid
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
+from blockchain import Block
+from blockchain import Blockchain
 
 class Transaction:
     """
@@ -49,55 +51,6 @@ class Transaction:
         """
         return f'{self.txid}: {self.sender} pays {self.receiver} {self.amount} coins'
     
-class Block:
-    """
-    Creating Class for Blocks in BlockChain
-    """
-    def __init__(self,Txlist,miner,plink = None):
-        """
-        Initializes a new Block
-        max size of block is 1MB
-
-        Args:
-            Txlist (List): List of Tx present in Block(Max len 999 because max block size 1MB,empty block size 1KB and Tx size 1KB)
-            miner (str): Name of miner who mined this block
-            plink (str, optional): Hash of Parent block. Defaults to None.
-        """
-        # Generating blkid using timestamp and random number b/w 100 and 999
-        self.timestamp = time.time()
-        self.blkid = hashlib.md5((str(random.randint(100,999))+str(self.timestamp)).encode()).hexdigest()
-
-        # Details of blk
-        self.Txlist = Txlist
-        self.miner = miner
-        self.maxsize = 1e6
-        self.plink = plink
-        self.valid = False
-
-class Blockchain:
-    def __init__(self):
-        self.level = 0
-        self.genesisblk = Block([],None)
-        self.genesisblk.blkid = '00000000000000000000000000000000'
-        self.chain = [self.genesisblk]
-        self.blkdata = {self.genesisblk.blkid: time.time()}
-        self.blktree = {self.level : [self.genesisblk]}
-
-    def AddBlock(self,newblk):
-        if newblk.blkid in self.blkdata.keys():
-            print(f'{newblk.blkid} is already present in chain')
-            return
-        # if newblk.plink is None:
-        newblk.plink = self.chain[-1].blkid
-        self.chain.append(newblk)
-        self.blkdata[newblk.blkid] = newblk.timestamp
-        return
-    
-    def printchain(self):
-        for b in self.chain:
-            print(f'Block ID: {b.blkid}')
-        return
-
 class Peer:
     def __init__(self,name,id):
         self.simtime = time.time()
