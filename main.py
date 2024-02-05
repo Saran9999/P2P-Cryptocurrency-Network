@@ -103,6 +103,18 @@ class Peer:
 
                 others.sendblock(msg,t)
 
+    def forkhandler(self,msg,arrival_time):
+        pass
+
+    def UpdateChain(self,blk,arrival_time):
+        if blk.blkid in self.localchain.blkdata.keys():
+            print("No need to update chain because it is already present in chain")
+            return
+        self.listofblocks.append(blk)
+        self.localchain.AddBlock(blk)
+        self.lastblkarrivaltime = arrival_time
+        return
+
 
 
 class Network:

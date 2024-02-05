@@ -39,7 +39,7 @@ class Blockchain:
             print(f'{newblk.blkid} is already present in chain')
             return False
         if newblk.plink is None:
-            newblk.plink = self.chain[-1].blkid
+            newblk.plink = self.longchain[-1].blkid
             self.chain.append(newblk)
             self.longchain.append(newblk)
             self.blkdata[newblk.blkid] = newblk.timestamp
