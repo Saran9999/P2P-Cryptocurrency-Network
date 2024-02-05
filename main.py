@@ -9,6 +9,8 @@ import numpy as np
 from blockchain import Block
 from blockchain import Blockchain
 
+UTX = []
+
 class Transaction:
     """
     Class for creating Transaction details between 2 parties
@@ -61,10 +63,10 @@ class Peer:
         self.neighbor = []
         self.lastblkarrivaltime = time.time()
         self.localchain = Blockchain(self.genesisblk)
-        self.txnssent = []
         self.txpool = []
         self.blkqueue = {'00000000000000000000000000000000': self.simtime}
         self.txqueue = {}
+        self.balance = 100
 
     def Delay(self,other,msg):
         size = 0
@@ -125,8 +127,16 @@ class Peer:
         self.lastblkarrivaltime = arrival_time
         return
     
-    def generateTx(self):
-        pass
+    def generateTx(self,sender,amount):
+        recv = self
+        if self.balance < 1:
+            print("Insufficent funds")
+            return
+        tx = Transaction(recv,sender,amount)
+        self.txpool.append(tx,tx.timestamp)
+        UTX.append(tx)
+        self.sendtx()
+        return
 
     def generateblk(self):
         pass
