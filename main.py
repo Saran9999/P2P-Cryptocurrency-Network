@@ -59,7 +59,6 @@ class Peer:
         self.is_slow = False
         self.cpuspeed = 1
         self.neighbor = []
-        self.listofblocks = [self.genesisblk]
         self.lastblkarrivaltime = time.time()
         self.localchain = Blockchain(self.genesisblk)
         self.txnssent = []
@@ -95,25 +94,42 @@ class Peer:
 
     def sendblock(self,msg,delay):
         for others in self.neighbor:
-            if msg not in others.listofblocks:
-                others.listofblocks.append(msg)
+            if msg not in others.localchain.chain:
                 t = delay+self.Delay(others,msg)
                 others.blkqueue[msg.blkid] = t
-                # check fork
-
-                others.sendblock(msg,t)
+                is_fork = self.forkhandler(msg,t)
+                if not is_fork:
+                    others.UpdateChain(msg,t)
+                    others.sendblock(msg,t)
+        return
 
     def forkhandler(self,msg,arrival_time):
-        pass
+        if msg.plink == self.localchain.getLastblk().plink and msg.blkid != self.localchain.getLastblk().blkid:
+            print(f'Fork Detected at peer {self.name}')
+            if arrival_time > self.lastblkarrivaltime:
+                self.lastblkarrivaltime = arrival_time
+                self.localchain.AddBlock(msg)
+                self.sendblock(msg,arrival_time) 
+                return True
+            else:
+                self.localchain.longchain = self.localchain.longchain[:-1]
+                self.localchain.AddBlock(msg)
+                self.sendblock(msg,arrival_time)
+        return False
 
     def UpdateChain(self,blk,arrival_time):
         if blk.blkid in self.localchain.blkdata.keys():
             print("No need to update chain because it is already present in chain")
             return
-        self.listofblocks.append(blk)
         self.localchain.AddBlock(blk)
         self.lastblkarrivaltime = arrival_time
         return
+    
+    def generateTx(self):
+        pass
+
+    def generateblk(self):
+        pass
 
 
 
