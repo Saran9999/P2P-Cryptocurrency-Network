@@ -10,6 +10,7 @@ from blockchain import Block
 from blockchain import Blockchain
 
 UTX = []
+all_peers = []
 
 class Transaction:
     """
@@ -62,7 +63,7 @@ class Peer:
         self.cpuspeed = 1
         self.neighbor = []
         self.lastblkarrivaltime = time.time()
-        self.localchain = Blockchain(self.genesisblk)
+        self.localchain = Blockchain()
         self.txpool = []
         self.blkqueue = {'00000000000000000000000000000000': self.simtime}
         self.txqueue = {}
@@ -127,19 +128,59 @@ class Peer:
         self.lastblkarrivaltime = arrival_time
         return
     
-    def generateTx(self,sender,amount):
-        recv = self
+    def generateTx(self,recv,amount):
+        sender = self
         if self.balance < 1:
             print("Insufficent funds")
             return
         tx = Transaction(recv,sender,amount)
-        self.txpool.append(tx,tx.timestamp)
+        self.txpool.append(tx)
         UTX.append(tx)
-        self.sendtx()
+        self.sendtx(tx,tx.timestamp)
         return
 
+    def checkValidation(self,Txlist):
+        bal = {}
+        for peer in all_peers:
+            bal[peer.ID] = peer.balance
+        for tx in Txlist:
+            bal[tx.recevier.ID] = bal[tx.recevier.ID] + tx.amount
+            bal[tx.sender.ID] = bal[tx.sender.ID] - tx.amount
+            if (bal[tx.sender.ID] < 0 or bal[tx.recevier.ID] < 0) and not tx.txcomp:
+                return False
+        for peer in all_peers:
+            peer.balance = bal[peer.ID]
+        return True
+
+    def marktxcomp(self,Txlist):
+        for tx in Txlist:
+            tx.txcomp = True
+
     def generateblk(self):
-        pass
+        listoftx = []
+        if len(UTX) > 999:
+            listoftx = UTX[:999]
+            UTX = UTX[999:]
+        else:
+            listoftx = UTX.copy()
+            UTX = []
+        newblk = Block(listoftx,self,self.localchain.getLastblk().blkid)
+        print(f'{self.name} started mining...')
+        # check valid block or not
+        if self.checkValidation(listoftx):
+            print('Generated Block is Valid Block')
+            self.localchain.AddBlock(newblk)
+            self.lastblkarrivaltime = newblk.timestamp
+            self.sendblock(newblk,newblk.timestamp)
+            if newblk in self.localchain.longchain:
+                self.marktxcomp(listoftx)
+                self.balance = self.balance + 50
+            else:
+                UTX = UTX + listoftx
+        else:
+            print('Generated Block is not Valid Block')
+            UTX = UTX + listoftx
+        return
 
 
 
@@ -149,6 +190,7 @@ class Network:
         self.slow = int(z0*self.n/100)
         self.lowcpu = int(z1*self.n/100)
         self.all_peers = np.array([Peer(f'Node_{i}',i) for i in range(self.n)])
+        all_peers = self.all_peers
         self.graph = self.createNetwork()
         arrz0 = np.array([False for _ in range(self.n)])
         arrz0[:self.slow] = True
@@ -193,7 +235,7 @@ class Network:
         while not nx.is_connected(G):
             G = self.createNetwork()
         for node in range(self.n):
-            self.all_peers[node] = [self.all_peers[p] for p in list(G.neighbors(node))]
+            self.all_peers[node].neighbor = [self.all_peers[p] for p in list(G.neighbors(node))]
         return G
 
     def visualizeNetwork(self):
