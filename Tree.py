@@ -33,8 +33,8 @@ class Tree:
         markers = "".join(map(mapper, levelMarkers[:-1]))
         markers += markerStr if level > 0 else ""
         file = open(self.filename,"a")
-        file.write(f"{markers}{blk.blkid}")
+        file.write(f"{markers}{blk.blkid}\n")
         file.close()
         for i, child in enumerate(self.blklist[blk.blkid]):
             isLast = i == len(self.blklist[blk.blkid]) - 1
-            self.PrintTree(child,child, markerStr, [*levelMarkers, not isLast])
+            self.PrintTree(child, markerStr, [*levelMarkers, not isLast])
