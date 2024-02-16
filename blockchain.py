@@ -1,6 +1,5 @@
 import random
 import time
-from graphviz import Digraph
 import hashlib
 # from transaction import Transaction
 class Block:
@@ -52,7 +51,6 @@ class Blockchain:
         self.chain = [self.genesisblk]
         self.blkdata = {self.genesisblk.blkid: 1}
         self.blkchild = {self.genesisblk.blkid: []}         # It contains child of a node
-        self.graph = Digraph('Blockchain', format='png')    # For Tree diagram of Blockchain
         self.blktime = {self.genesisblk.blkid: 0}           # Block arrival time list
         self.blkbal = {self.genesisblk.blkid: {}}           # contains bal of all nodes after generation of this block
 
@@ -74,9 +72,9 @@ class Blockchain:
         if pl in self.blkdata.keys():                       # Checking if the parent block is present in the chain
             self.chain.append(newblk)
             self.blktime[newblk.blkid] = time
-            self.blkdata[newblk.blkid] = self.blkdata[pl] + 1# Adding the new block to the chain
+            self.blkdata[newblk.blkid] = self.blkdata[pl] + 1   # Adding the new block to the chain
             self.blkchild[pl].append(newblk)                 # Adding the new block as a child of the parent block
-            self.blkchild[pl].sort(key=lambda x: self.blktime[x.blkid])
+            self.blkchild[pl].sort(key=lambda x: self.blktime[x.blkid])  # sorting blocks based on arrival time
             self.blkchild[newblk.blkid] = []
             self.longchain = []
             self.DFS(self.genesisblk)                         # Performing a depth-first search to find the longest chain
@@ -155,6 +153,8 @@ class Blockchain:
         Args:
             filename (str): The filename for the visualization image.
         """
+        from graphviz import Digraph
+        self.graph = Digraph('Blockchain', format='png')    # For Tree diagram of Blockchain
         self.graph.attr(size='10000,10000')
         self.graph.attr(rankdir='LR')    # Left to Right orientation
         for blk in self.chain:
