@@ -1,0 +1,2850 @@
+Network created
+new txn gen by Node_0 at time 0
+new txn gen by Node_1 at time 0
+new txn gen by Node_2 at time 0
+new txn gen by Node_3 at time 0
+new txn gen by Node_4 at time 0
+new txn gen by Node_5 at time 0
+new txn gen by Node_6 at time 0
+new txn gen by Node_7 at time 0
+new txn gen by Node_8 at time 0
+new txn gen by Node_9 at time 0
+new txn gen by Node_0 at time 5.223764915439882
+new txn gen by Node_1 at time 30.092141680227492
+new txn gen by Node_7 at time 84.8782112934654
+new txn gen by Node_3 at time 113.77358202411875
+new txn gen by Node_4 at time 141.4884049104279
+new txn gen by Node_3 at time 164.75378873129867
+new txn gen by Node_8 at time 220.7882858191866
+new txn gen by Node_9 at time 290.1093418352772
+new txn gen by Node_1 at time 379.35524907404687
+new txn gen by Node_4 at time 423.9391701197763
+new txn gen by Node_0 at time 469.0807498394736
+new txn gen by Node_6 at time 526.9337009990036
+new txn gen by Node_4 at time 560.1157142413065
+new txn gen by Node_1 at time 571.2034948901272
+new txn gen by Node_8 at time 604.4713225867315
+new txn gen by Node_9 at time 819.0709717285149
+new txn gen by Node_0 at time 822.9300522748158
+new txn gen by Node_0 at time 894.3935651227405
+new txn gen by Node_8 at time 934.5526782826303
+new txn gen by Node_2 at time 973.8417763677214
+new txn gen by Node_0 at time 1036.766289128784
+new txn gen by Node_7 at time 1061.9209432076502
+new txn gen by Node_1 at time 1074.415947939628
+new txn gen by Node_8 at time 1355.0587310655642
+new txn gen by Node_7 at time 1427.5624574354954
+new txn gen by Node_2 at time 1506.1754315884587
+genrated id 90b0a91c0c852e1d81ea09cd08eaacb8
+Generated Block is Valid Block by Node_2 at time 1520.9230992535975
+new txn gen by Node_1 at time 1567.2497003818369
+new txn gen by Node_8 at time 1611.5693931338333
+new txn gen by Node_4 at time 1631.15812930769
+new txn gen by Node_2 at time 1644.6939069872128
+new txn gen by Node_6 at time 1750.7712453347385
+new txn gen by Node_1 at time 1758.5253466160461
+genrated id bf638cbf86a65b546b0f3469a58f783b
+Generated Block is Valid Block by Node_7 at time 1776.9069874673605
+new txn gen by Node_9 at time 1893.778633454127
+new block recieved by block by Node_1
+State 0' 1
+block recieved at Node_1 
+broadcasting block by Node_1 at 1896.568912269438 of msg 90b0a91c0c852e1d81ea09cd08eaacb8 to all neighbors
+broadcasting block by Node_1 at 1896.568912269438 of msg c0330ad4f8d1772aaea368dc30e41f57 to all neighbors
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 1924.7741116948232 of msg bf638cbf86a65b546b0f3469a58f783b to all neighbors
+new txn gen by Node_9 at time 1933.1560593482732
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 1965.6536578805803 of msg 90b0a91c0c852e1d81ea09cd08eaacb8 to all neighbors
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:c0330ad4f8d1772aaea368dc30e41f57
+block recieved at Node_7 
+broadcasting block by Node_7 at 1973.5193037296388 of msg c0330ad4f8d1772aaea368dc30e41f57 to all neighbors
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 1975.4120061251247 of msg 90b0a91c0c852e1d81ea09cd08eaacb8 to all neighbors
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 2003.2631500494238 of msg bf638cbf86a65b546b0f3469a58f783b to all neighbors
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 2020.205881252412 of msg c0330ad4f8d1772aaea368dc30e41f57 to all neighbors
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 2045.7560536694048 of msg bf638cbf86a65b546b0f3469a58f783b to all neighbors
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 2065.88321638842 of msg 90b0a91c0c852e1d81ea09cd08eaacb8 to all neighbors
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 2073.634852012316 of msg c0330ad4f8d1772aaea368dc30e41f57 to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 2076.4945274500715 of msg 90b0a91c0c852e1d81ea09cd08eaacb8 to all neighbors
+new txn gen by Node_9 at time 2078.4211410138364
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 2103.0926070040446 of msg bf638cbf86a65b546b0f3469a58f783b to all neighbors
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:bf638cbf86a65b546b0f3469a58f783b
+block recieved at Node_2 
+broadcasting block by Node_2 at 2116.0310731065265 of msg bf638cbf86a65b546b0f3469a58f783b to all neighbors
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 2121.388397832291 of msg c0330ad4f8d1772aaea368dc30e41f57 to all neighbors
+bf638cbf86a65b546b0f3469a58f783b is already present in chain
+block recieved at Node_8 
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 2154.4048899189443 of msg bf638cbf86a65b546b0f3469a58f783b to all neighbors
+new txn gen by Node_8 at time 2159.450838927163
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 2168.7689717897993 of msg 90b0a91c0c852e1d81ea09cd08eaacb8 to all neighbors
+broadcasting block by Node_1 at 2178.2169172257304 of msg 1d1f90c6300528cc624de98e48652e37 to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 2184.4793607029465 of msg c0330ad4f8d1772aaea368dc30e41f57 to all neighbors
+new txn gen by Node_9 at time 2193.865153143437
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 2203.3152929246025 of msg bf638cbf86a65b546b0f3469a58f783b to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 2213.9382111381096 of msg bf638cbf86a65b546b0f3469a58f783b to all neighbors
+new txn gen by Node_3 at time 2228.1988368343527
+c0330ad4f8d1772aaea368dc30e41f57 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 2242.370298880642 of msg c0330ad4f8d1772aaea368dc30e41f57 to all neighbors
+bf638cbf86a65b546b0f3469a58f783b is already present in chain
+block recieved at Node_4 
+90b0a91c0c852e1d81ea09cd08eaacb8 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 2255.16737258469 of msg 1d1f90c6300528cc624de98e48652e37 to all neighbors
+bf638cbf86a65b546b0f3469a58f783b is already present in chain
+block recieved at Node_9 
+c0330ad4f8d1772aaea368dc30e41f57 is already present in chain
+block recieved at Node_3 
+new txn gen by Node_4 at time 2281.490751996412
+90b0a91c0c852e1d81ea09cd08eaacb8 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 2296.2280869245274 of msg c0330ad4f8d1772aaea368dc30e41f57 to all neighbors
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 2301.8544948729623 of msg 1d1f90c6300528cc624de98e48652e37 to all neighbors
+c0330ad4f8d1772aaea368dc30e41f57 is already present in chain
+block recieved at Node_2 
+bf638cbf86a65b546b0f3469a58f783b is already present in chain
+block recieved at Node_2 
+new txn gen by Node_3 at time 2325.720829591548
+c0330ad4f8d1772aaea368dc30e41f57 is already present in chain
+block recieved at Node_8 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 2327.9431304179234 of msg bf638cbf86a65b546b0f3469a58f783b to all neighbors
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 2329.1186990378064 of msg 90b0a91c0c852e1d81ea09cd08eaacb8 to all neighbors
+bf638cbf86a65b546b0f3469a58f783b is already present in chain
+block recieved at Node_6 
+c0330ad4f8d1772aaea368dc30e41f57 is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:c0330ad4f8d1772aaea368dc30e41f57
+block recieved at Node_4 
+broadcasting block by Node_4 at 2351.030100965432 of msg c0330ad4f8d1772aaea368dc30e41f57 to all neighbors
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 2355.2878164582394 of msg 1d1f90c6300528cc624de98e48652e37 to all neighbors
+new txn gen by Node_7 at time 2357.7347300104475
+bf638cbf86a65b546b0f3469a58f783b is already present in chain
+block recieved at Node_0 
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 2386.23045904841 of msg 90b0a91c0c852e1d81ea09cd08eaacb8 to all neighbors
+90b0a91c0c852e1d81ea09cd08eaacb8 is already present in chain
+block recieved at Node_4 
+90b0a91c0c852e1d81ea09cd08eaacb8 is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 2403.0355043967243 of msg 1d1f90c6300528cc624de98e48652e37 to all neighbors
+c0330ad4f8d1772aaea368dc30e41f57 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_5 at time 2426.558723266333
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 2437.102742194026 of msg c0330ad4f8d1772aaea368dc30e41f57 to all neighbors
+c0330ad4f8d1772aaea368dc30e41f57 is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 2444.7825133796896 of msg 90b0a91c0c852e1d81ea09cd08eaacb8 to all neighbors
+90b0a91c0c852e1d81ea09cd08eaacb8 is already present in chain
+block recieved at Node_7 
+bf638cbf86a65b546b0f3469a58f783b is already present in chain
+block recieved at Node_4 
+90b0a91c0c852e1d81ea09cd08eaacb8 is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 2466.135366347285 of msg 1d1f90c6300528cc624de98e48652e37 to all neighbors
+bf638cbf86a65b546b0f3469a58f783b is already present in chain
+block recieved at Node_0 
+new txn gen by Node_6 at time 2477.754217517545
+90b0a91c0c852e1d81ea09cd08eaacb8 is already present in chain
+block recieved at Node_7 
+c0330ad4f8d1772aaea368dc30e41f57 is already present in chain
+block recieved at Node_4 
+1d1f90c6300528cc624de98e48652e37 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 2524.0456913273915 of msg 1d1f90c6300528cc624de98e48652e37 to all neighbors
+c0330ad4f8d1772aaea368dc30e41f57 is already present in chain
+block recieved at Node_0 
+1d1f90c6300528cc624de98e48652e37 is already present in chain
+block recieved at Node_3 
+c0330ad4f8d1772aaea368dc30e41f57 is already present in chain
+block recieved at Node_0 
+90b0a91c0c852e1d81ea09cd08eaacb8 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_9 at time 2577.431861535707
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 2577.870366803811 of msg 1d1f90c6300528cc624de98e48652e37 to all neighbors
+new txn gen by Node_6 at time 2594.3035550710724
+1d1f90c6300528cc624de98e48652e37 is already present in chain
+block recieved at Node_2 
+1d1f90c6300528cc624de98e48652e37 is already present in chain
+block recieved at Node_8 
+new txn gen by Node_8 at time 2612.8589585757973
+bf638cbf86a65b546b0f3469a58f783b is already present in chain
+block recieved at Node_6 
+1d1f90c6300528cc624de98e48652e37 is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 2632.6805014226957 of msg 1d1f90c6300528cc624de98e48652e37 to all neighbors
+c0330ad4f8d1772aaea368dc30e41f57 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_5 at time 2656.9738176230076
+1d1f90c6300528cc624de98e48652e37 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_1 at time 2711.9642667411918
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 2718.7544015044546 of msg 1d1f90c6300528cc624de98e48652e37 to all neighbors
+1d1f90c6300528cc624de98e48652e37 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_4 at time 2722.404556173675
+new txn gen by Node_7 at time 2722.8636964994807
+new txn gen by Node_3 at time 2758.010864918129
+1d1f90c6300528cc624de98e48652e37 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_7 at time 2787.5010418908223
+1d1f90c6300528cc624de98e48652e37 is already present in chain
+block recieved at Node_0 
+1d1f90c6300528cc624de98e48652e37 is already present in chain
+block recieved at Node_0 
+1d1f90c6300528cc624de98e48652e37 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_6 at time 3002.3507771174927
+new txn gen by Node_8 at time 3027.4264531339986
+new txn gen by Node_9 at time 3042.131805645584
+new txn gen by Node_8 at time 3082.320201944097
+new txn gen by Node_2 at time 3115.8038176263735
+new txn gen by Node_7 at time 3152.4824139333177
+new txn gen by Node_1 at time 3164.765674665348
+new txn gen by Node_2 at time 3170.011724706345
+new txn gen by Node_5 at time 3194.7596030549453
+new txn gen by Node_3 at time 3210.2304980323474
+new txn gen by Node_6 at time 3253.737481905461
+new txn gen by Node_8 at time 3256.583561193933
+new txn gen by Node_6 at time 3377.529009584862
+new txn gen by Node_5 at time 3383.944992749314
+new txn gen by Node_7 at time 3498.0550528451136
+new txn gen by Node_8 at time 3527.224294736964
+new txn gen by Node_8 at time 3586.723705018206
+new txn gen by Node_5 at time 3627.959597400965
+new txn gen by Node_0 at time 3727.8736148798816
+new txn gen by Node_3 at time 3839.750518359365
+new txn gen by Node_3 at time 3862.634385785816
+new txn gen by Node_4 at time 3912.692171509418
+new txn gen by Node_2 at time 3933.0900409235323
+new txn gen by Node_8 at time 3980.421458131508
+new txn gen by Node_7 at time 4080.6155221127683
+new txn gen by Node_7 at time 4090.0461155557855
+new txn gen by Node_3 at time 4166.943984532609
+new txn gen by Node_3 at time 4304.506948305283
+new txn gen by Node_2 at time 4351.6439787974095
+new txn gen by Node_6 at time 4371.17507218898
+new txn gen by Node_4 at time 4409.497731695748
+new txn gen by Node_3 at time 4426.440665919605
+new txn gen by Node_0 at time 4582.505495548434
+new txn gen by Node_0 at time 4628.733833192652
+genrated id f9c76d7301a027068a42d48511c1e457
+Generated Block is Valid Block by Node_2 at time 4636.586898041531
+new txn gen by Node_8 at time 4654.49790547477
+new txn gen by Node_0 at time 4683.220151400063
+new txn gen by Node_2 at time 4689.856218711812
+new txn gen by Node_9 at time 4715.839246214365
+new txn gen by Node_1 at time 4812.863779601049
+new txn gen by Node_5 at time 4907.570188785165
+new txn gen by Node_7 at time 4946.128097240749
+new txn gen by Node_7 at time 4960.251713548376
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 5012.234763902666 of msg f9c76d7301a027068a42d48511c1e457 to all neighbors
+broadcasting block by Node_1 at 5012.234763902666 of msg ef4394064851f1823de78f54bbe94783 to all neighbors
+new txn gen by Node_0 at time 5015.786046209857
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:f9c76d7301a027068a42d48511c1e457
+block recieved at Node_5 
+broadcasting block by Node_5 at 5081.3182947853065 of msg f9c76d7301a027068a42d48511c1e457 to all neighbors
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:ef4394064851f1823de78f54bbe94783
+block recieved at Node_7 
+broadcasting block by Node_7 at 5089.184339532449 of msg ef4394064851f1823de78f54bbe94783 to all neighbors
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 5091.075996645039 of msg f9c76d7301a027068a42d48511c1e457 to all neighbors
+new txn gen by Node_1 at time 5116.472250312111
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 5135.871782916464 of msg ef4394064851f1823de78f54bbe94783 to all neighbors
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 5181.589755415653 of msg f9c76d7301a027068a42d48511c1e457 to all neighbors
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 5189.291869716944 of msg ef4394064851f1823de78f54bbe94783 to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 5192.197636723763 of msg f9c76d7301a027068a42d48511c1e457 to all neighbors
+new txn gen by Node_5 at time 5221.7599953512945
+new block recieved by block by Node_3
+Fork detected at peer ID:3 for block ID:ef4394064851f1823de78f54bbe94783
+block recieved at Node_3 
+broadcasting block by Node_3 at 5237.055984975787 of msg ef4394064851f1823de78f54bbe94783 to all neighbors
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 5284.434252102855 of msg f9c76d7301a027068a42d48511c1e457 to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 5300.135216260329 of msg ef4394064851f1823de78f54bbe94783 to all neighbors
+new txn gen by Node_4 at time 5328.514397966415
+ef4394064851f1823de78f54bbe94783 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 5358.0598542431635 of msg ef4394064851f1823de78f54bbe94783 to all neighbors
+f9c76d7301a027068a42d48511c1e457 is already present in chain
+block recieved at Node_3 
+ef4394064851f1823de78f54bbe94783 is already present in chain
+block recieved at Node_3 
+f9c76d7301a027068a42d48511c1e457 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:ef4394064851f1823de78f54bbe94783
+block recieved at Node_2 
+broadcasting block by Node_2 at 5411.879297875839 of msg ef4394064851f1823de78f54bbe94783 to all neighbors
+new txn gen by Node_6 at time 5415.902697837755
+new txn gen by Node_2 at time 5425.518423649051
+ef4394064851f1823de78f54bbe94783 is already present in chain
+block recieved at Node_2 
+ef4394064851f1823de78f54bbe94783 is already present in chain
+block recieved at Node_8 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 5444.817418057349 of msg f9c76d7301a027068a42d48511c1e457 to all neighbors
+ef4394064851f1823de78f54bbe94783 is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 5466.691748166127 of msg ef4394064851f1823de78f54bbe94783 to all neighbors
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 5501.900394668297 of msg f9c76d7301a027068a42d48511c1e457 to all neighbors
+f9c76d7301a027068a42d48511c1e457 is already present in chain
+block recieved at Node_4 
+f9c76d7301a027068a42d48511c1e457 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_5 at time 5517.58547980625
+ef4394064851f1823de78f54bbe94783 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_2 at time 5535.050350850852
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 5552.76041542936 of msg ef4394064851f1823de78f54bbe94783 to all neighbors
+ef4394064851f1823de78f54bbe94783 is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 5560.445865231664 of msg f9c76d7301a027068a42d48511c1e457 to all neighbors
+f9c76d7301a027068a42d48511c1e457 is already present in chain
+block recieved at Node_7 
+f9c76d7301a027068a42d48511c1e457 is already present in chain
+block recieved at Node_4 
+f9c76d7301a027068a42d48511c1e457 is already present in chain
+block recieved at Node_7 
+ef4394064851f1823de78f54bbe94783 is already present in chain
+block recieved at Node_4 
+ef4394064851f1823de78f54bbe94783 is already present in chain
+block recieved at Node_0 
+ef4394064851f1823de78f54bbe94783 is already present in chain
+block recieved at Node_0 
+f9c76d7301a027068a42d48511c1e457 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_0 at time 5700.720085243634
+ef4394064851f1823de78f54bbe94783 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_4 at time 6060.218911655375
+new txn gen by Node_2 at time 6114.707738980015
+new txn gen by Node_6 at time 6172.061870639688
+new txn gen by Node_3 at time 6187.336524798437
+new txn gen by Node_6 at time 6275.469507712472
+new txn gen by Node_3 at time 6358.005343032357
+new txn gen by Node_2 at time 6378.633218382615
+new txn gen by Node_9 at time 6415.1557567437985
+new txn gen by Node_9 at time 6418.867306049006
+new txn gen by Node_4 at time 6454.7210097560255
+new txn gen by Node_6 at time 6598.893782821801
+new txn gen by Node_6 at time 6612.9096962049325
+new txn gen by Node_1 at time 6632.3017546020155
+new txn gen by Node_6 at time 6633.386276786713
+new txn gen by Node_7 at time 6648.059432315036
+new txn gen by Node_0 at time 6659.4945994841655
+new txn gen by Node_7 at time 6724.707992052348
+new txn gen by Node_2 at time 6728.096731735863
+new txn gen by Node_0 at time 6789.770930554057
+new txn gen by Node_3 at time 6791.567828670136
+new txn gen by Node_7 at time 6792.781603221394
+new txn gen by Node_7 at time 6806.286509887902
+new txn gen by Node_9 at time 6832.163860790934
+new txn gen by Node_9 at time 6885.39121564797
+new txn gen by Node_9 at time 6915.004889890271
+new txn gen by Node_1 at time 6938.653017331051
+new txn gen by Node_7 at time 7013.786045843919
+new txn gen by Node_4 at time 7036.93509278337
+new txn gen by Node_1 at time 7049.223800655007
+new txn gen by Node_1 at time 7084.401517171751
+new txn gen by Node_2 at time 7249.807557266464
+new txn gen by Node_2 at time 7278.098436634378
+new txn gen by Node_9 at time 7287.631400982375
+new txn gen by Node_5 at time 7311.986461056435
+new txn gen by Node_4 at time 7416.584522561986
+new txn gen by Node_5 at time 7435.452129517461
+new txn gen by Node_1 at time 7450.848640059046
+new txn gen by Node_6 at time 7456.029618973462
+new txn gen by Node_9 at time 7567.707545593791
+new txn gen by Node_4 at time 7622.208586859966
+new txn gen by Node_8 at time 7664.751287722553
+new txn gen by Node_5 at time 7681.383915665561
+new txn gen by Node_2 at time 7681.755732663754
+new txn gen by Node_6 at time 7693.127712429469
+new txn gen by Node_2 at time 7806.142345896616
+new txn gen by Node_2 at time 7885.220795229555
+new txn gen by Node_7 at time 7998.159546531007
+new txn gen by Node_5 at time 8152.9643880360145
+new txn gen by Node_9 at time 8203.674350526364
+new txn gen by Node_8 at time 8237.89469142197
+new txn gen by Node_1 at time 8260.363837964385
+new txn gen by Node_4 at time 8277.436164801635
+new txn gen by Node_9 at time 8284.952950969453
+new txn gen by Node_7 at time 8374.950515788678
+new txn gen by Node_0 at time 8381.603136165755
+new txn gen by Node_2 at time 8399.551158010789
+new txn gen by Node_4 at time 8573.720856248452
+new txn gen by Node_8 at time 8614.218929772576
+new txn gen by Node_9 at time 8655.520131735208
+genrated id 9449d0525bef89d702881bfee06df830
+Generated Block is Valid Block by Node_3 at time 8699.439293292118
+new txn gen by Node_3 at time 8796.05648564317
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 8820.440504710114 of msg 9449d0525bef89d702881bfee06df830 to all neighbors
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:9449d0525bef89d702881bfee06df830
+block recieved at Node_5 
+broadcasting block by Node_5 at 8877.72550824231 of msg 9449d0525bef89d702881bfee06df830 to all neighbors
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 8890.717223129106 of msg 9449d0525bef89d702881bfee06df830 to all neighbors
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:9449d0525bef89d702881bfee06df830
+block recieved at Node_4 
+broadcasting block by Node_4 at 8929.08542545364 of msg 9449d0525bef89d702881bfee06df830 to all neighbors
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:9449d0525bef89d702881bfee06df830
+block recieved at Node_6 
+broadcasting block by Node_6 at 8977.963831358426 of msg 9449d0525bef89d702881bfee06df830 to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 8988.573015587182 of msg 9449d0525bef89d702881bfee06df830 to all neighbors
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:9449d0525bef89d702881bfee06df830
+block recieved at Node_7 
+broadcasting block by Node_7 at 8997.89250200473 of msg 9449d0525bef89d702881bfee06df830 to all neighbors
+9449d0525bef89d702881bfee06df830 is already present in chain
+block recieved at Node_7 
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 9023.926498519391 of msg 9449d0525bef89d702881bfee06df830 to all neighbors
+broadcasting block by Node_1 at 9023.926498519391 of msg 27fcfc72b4f539bae1450896c94c820b to all neighbors
+broadcasting block by Node_1 at 9023.926498519391 of msg a8379a62d95f998f60d069da63198203 to all neighbors
+new txn gen by Node_2 at time 9035.622337047169
+9449d0525bef89d702881bfee06df830 is already present in chain
+block recieved at Node_9 
+new txn gen by Node_7 at time 9067.150308524942
+9449d0525bef89d702881bfee06df830 is already present in chain
+block recieved at Node_2 
+Not a valid block
+block recieved at Node_7 
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 9100.877072522502 of msg 27fcfc72b4f539bae1450896c94c820b to all neighbors
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 9102.66538917597 of msg 9449d0525bef89d702881bfee06df830 to all neighbors
+new txn gen by Node_4 at time 9107.09648428088
+9449d0525bef89d702881bfee06df830 is already present in chain
+block recieved at Node_6 
+9449d0525bef89d702881bfee06df830 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_3 at time 9141.157048370573
+Not a valid block
+block recieved at Node_6 
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 9147.563737084809 of msg 27fcfc72b4f539bae1450896c94c820b to all neighbors
+new txn gen by Node_8 at time 9169.061899562434
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 9201.065727741427 of msg 27fcfc72b4f539bae1450896c94c820b to all neighbors
+new txn gen by Node_0 at time 9217.28562550452
+9449d0525bef89d702881bfee06df830 is already present in chain
+block recieved at Node_1 
+9449d0525bef89d702881bfee06df830 is already present in chain
+block recieved at Node_4 
+9449d0525bef89d702881bfee06df830 is already present in chain
+block recieved at Node_0 
+new block recieved by block by Node_3
+Fork detected at peer ID:3 for block ID:27fcfc72b4f539bae1450896c94c820b
+block recieved at Node_3 
+broadcasting block by Node_3 at 9248.75141183406 of msg 27fcfc72b4f539bae1450896c94c820b to all neighbors
+new txn gen by Node_2 at time 9252.445357490853
+9449d0525bef89d702881bfee06df830 is already present in chain
+block recieved at Node_1 
+9449d0525bef89d702881bfee06df830 is already present in chain
+block recieved at Node_7 
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 9311.90781823046 of msg 27fcfc72b4f539bae1450896c94c820b to all neighbors
+new txn gen by Node_4 at time 9340.309028901778
+new txn gen by Node_2 at time 9351.302937386008
+27fcfc72b4f539bae1450896c94c820b is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 9369.74581811824 of msg 27fcfc72b4f539bae1450896c94c820b to all neighbors
+9449d0525bef89d702881bfee06df830 is already present in chain
+block recieved at Node_6 
+27fcfc72b4f539bae1450896c94c820b is already present in chain
+block recieved at Node_3 
+new txn gen by Node_8 at time 9417.675938641201
+new txn gen by Node_6 at time 9420.061126558521
+new txn gen by Node_1 at time 9422.501187232096
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:27fcfc72b4f539bae1450896c94c820b
+block recieved at Node_2 
+broadcasting block by Node_2 at 9423.661932981355 of msg 27fcfc72b4f539bae1450896c94c820b to all neighbors
+27fcfc72b4f539bae1450896c94c820b is already present in chain
+block recieved at Node_2 
+27fcfc72b4f539bae1450896c94c820b is already present in chain
+block recieved at Node_8 
+new txn gen by Node_4 at time 9460.37054511123
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 9464.66326224129 of msg a8379a62d95f998f60d069da63198203 to all neighbors
+27fcfc72b4f539bae1450896c94c820b is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:27fcfc72b4f539bae1450896c94c820b
+block recieved at Node_4 
+broadcasting block by Node_4 at 9478.384814563882 of msg 27fcfc72b4f539bae1450896c94c820b to all neighbors
+27fcfc72b4f539bae1450896c94c820b is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 9564.558837534074 of msg 27fcfc72b4f539bae1450896c94c820b to all neighbors
+27fcfc72b4f539bae1450896c94c820b is already present in chain
+block recieved at Node_4 
+new txn gen by Node_4 at time 9578.996218065777
+new txn gen by Node_4 at time 9583.761059567914
+new txn gen by Node_5 at time 9609.163503474527
+27fcfc72b4f539bae1450896c94c820b is already present in chain
+block recieved at Node_4 
+new txn gen by Node_9 at time 9641.082863901787
+27fcfc72b4f539bae1450896c94c820b is already present in chain
+block recieved at Node_0 
+new txn gen by Node_1 at time 9672.387321216629
+new txn gen by Node_9 at time 9679.846679620614
+27fcfc72b4f539bae1450896c94c820b is already present in chain
+block recieved at Node_0 
+genrated id 430aa66cb6b24f80b68cbbc2947187d1
+Generated Block is Valid Block by Node_5 at time 9697.75245550103
+27fcfc72b4f539bae1450896c94c820b is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 9797.992477505242 of msg 430aa66cb6b24f80b68cbbc2947187d1 to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 9808.595307304828 of msg 430aa66cb6b24f80b68cbbc2947187d1 to all neighbors
+new txn gen by Node_3 at time 9838.853227625012
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 9843.953831658178 of msg 430aa66cb6b24f80b68cbbc2947187d1 to all neighbors
+new txn gen by Node_8 at time 9850.337301377314
+new txn gen by Node_2 at time 9865.746860196024
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 9900.866051956726 of msg 430aa66cb6b24f80b68cbbc2947187d1 to all neighbors
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:a8379a62d95f998f60d069da63198203
+block recieved at Node_5 
+broadcasting block by Node_5 at 9909.39334399166 of msg a8379a62d95f998f60d069da63198203 to all neighbors
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 9919.153873570704 of msg a8379a62d95f998f60d069da63198203 to all neighbors
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 9920.337551676712 of msg 430aa66cb6b24f80b68cbbc2947187d1 to all neighbors
+new txn gen by Node_8 at time 9932.09596477218
+new txn gen by Node_7 at time 9980.819664900615
+new txn gen by Node_7 at time 9988.829547735711
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 10009.615712098723 of msg a8379a62d95f998f60d069da63198203 to all neighbors
+430aa66cb6b24f80b68cbbc2947187d1 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 10020.241272556363 of msg a8379a62d95f998f60d069da63198203 to all neighbors
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 10021.84927004247 of msg 430aa66cb6b24f80b68cbbc2947187d1 to all neighbors
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 10061.22881349805 of msg 430aa66cb6b24f80b68cbbc2947187d1 to all neighbors
+new txn gen by Node_0 at time 10063.721704187124
+new txn gen by Node_8 at time 10096.538761709257
+new txn gen by Node_7 at time 10097.618963546953
+new txn gen by Node_0 at time 10106.833621518448
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 10112.51157967437 of msg a8379a62d95f998f60d069da63198203 to all neighbors
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 10127.502663752519 of msg 430aa66cb6b24f80b68cbbc2947187d1 to all neighbors
+430aa66cb6b24f80b68cbbc2947187d1 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_6 at time 10134.013755511529
+430aa66cb6b24f80b68cbbc2947187d1 is already present in chain
+block recieved at Node_4 
+a8379a62d95f998f60d069da63198203 is already present in chain
+block recieved at Node_3 
+new txn gen by Node_0 at time 10196.288606071592
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:430aa66cb6b24f80b68cbbc2947187d1
+block recieved at Node_7 
+broadcasting block by Node_7 at 10196.343476170117 of msg 430aa66cb6b24f80b68cbbc2947187d1 to all neighbors
+new txn gen by Node_8 at time 10210.336785414878
+430aa66cb6b24f80b68cbbc2947187d1 is already present in chain
+block recieved at Node_7 
+new txn gen by Node_0 at time 10219.86422038832
+a8379a62d95f998f60d069da63198203 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 10272.869680109243 of msg a8379a62d95f998f60d069da63198203 to all neighbors
+new txn gen by Node_2 at time 10300.56765039466
+430aa66cb6b24f80b68cbbc2947187d1 is already present in chain
+block recieved at Node_0 
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 10329.97819366179 of msg a8379a62d95f998f60d069da63198203 to all neighbors
+a8379a62d95f998f60d069da63198203 is already present in chain
+block recieved at Node_4 
+a8379a62d95f998f60d069da63198203 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_7 at time 10372.56213701097
+430aa66cb6b24f80b68cbbc2947187d1 is already present in chain
+block recieved at Node_8 
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 10388.525154099401 of msg a8379a62d95f998f60d069da63198203 to all neighbors
+a8379a62d95f998f60d069da63198203 is already present in chain
+block recieved at Node_7 
+a8379a62d95f998f60d069da63198203 is already present in chain
+block recieved at Node_4 
+a8379a62d95f998f60d069da63198203 is already present in chain
+block recieved at Node_7 
+430aa66cb6b24f80b68cbbc2947187d1 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_4 at time 10435.632866925667
+new txn gen by Node_9 at time 10445.144177714166
+new txn gen by Node_6 at time 10457.160425257844
+new txn gen by Node_3 at time 10475.020078364229
+430aa66cb6b24f80b68cbbc2947187d1 is already present in chain
+block recieved at Node_7 
+a8379a62d95f998f60d069da63198203 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_6 at time 10556.553423503206
+new txn gen by Node_7 at time 10592.113217404663
+new txn gen by Node_9 at time 10627.698614150488
+new txn gen by Node_3 at time 10723.261769439965
+new txn gen by Node_6 at time 10731.345342283845
+new txn gen by Node_2 at time 10784.31767325062
+new txn gen by Node_8 at time 10922.22277894726
+new txn gen by Node_0 at time 11111.483286259452
+new txn gen by Node_3 at time 11298.626647576551
+new txn gen by Node_1 at time 11341.92018554128
+new txn gen by Node_7 at time 11426.684126000866
+new txn gen by Node_7 at time 11432.874586881555
+new txn gen by Node_1 at time 11480.861650885194
+new txn gen by Node_4 at time 11537.449966359527
+new txn gen by Node_0 at time 11579.275144307745
+new txn gen by Node_2 at time 11595.677879948234
+new txn gen by Node_4 at time 11599.312851034016
+genrated id df112f176e647093bf421adf993172e7
+Generated Block is Valid Block by Node_5 at time 11651.919268131709
+new txn gen by Node_6 at time 11672.122189227974
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:df112f176e647093bf421adf993172e7
+block recieved at Node_6 
+broadcasting block by Node_6 at 11752.141129624526 of msg df112f176e647093bf421adf993172e7 to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 11762.78677398513 of msg df112f176e647093bf421adf993172e7 to all neighbors
+new txn gen by Node_8 at time 11780.154484994004
+new txn gen by Node_2 at time 11796.14803472444
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 11798.103062701408 of msg df112f176e647093bf421adf993172e7 to all neighbors
+new txn gen by Node_5 at time 11799.26429992418
+new txn gen by Node_7 at time 11827.570871186525
+new txn gen by Node_1 at time 11831.901628713103
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 11855.062445555646 of msg df112f176e647093bf421adf993172e7 to all neighbors
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:df112f176e647093bf421adf993172e7
+block recieved at Node_2 
+broadcasting block by Node_2 at 11874.55397395612 of msg df112f176e647093bf421adf993172e7 to all neighbors
+new txn gen by Node_1 at time 11893.131674635202
+df112f176e647093bf421adf993172e7 is already present in chain
+block recieved at Node_3 
+new txn gen by Node_9 at time 11973.617629501352
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 11976.092648653312 of msg df112f176e647093bf421adf993172e7 to all neighbors
+new txn gen by Node_3 at time 11988.420808789819
+new txn gen by Node_9 at time 12010.504654029664
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 12015.408502792161 of msg df112f176e647093bf421adf993172e7 to all neighbors
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 12081.655567968088 of msg df112f176e647093bf421adf993172e7 to all neighbors
+df112f176e647093bf421adf993172e7 is already present in chain
+block recieved at Node_4 
+df112f176e647093bf421adf993172e7 is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:df112f176e647093bf421adf993172e7
+block recieved at Node_7 
+broadcasting block by Node_7 at 12150.48984953384 of msg df112f176e647093bf421adf993172e7 to all neighbors
+df112f176e647093bf421adf993172e7 is already present in chain
+block recieved at Node_7 
+new txn gen by Node_9 at time 12236.344386501869
+new txn gen by Node_2 at time 12237.014794722709
+df112f176e647093bf421adf993172e7 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_4 at time 12288.164791204974
+new txn gen by Node_5 at time 12297.305007599436
+new txn gen by Node_8 at time 12301.39658516275
+df112f176e647093bf421adf993172e7 is already present in chain
+block recieved at Node_8 
+new txn gen by Node_2 at time 12333.51361560577
+new txn gen by Node_5 at time 12344.827616411158
+new txn gen by Node_7 at time 12356.13290735034
+new txn gen by Node_4 at time 12372.608945104623
+df112f176e647093bf421adf993172e7 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_2 at time 12433.099070871487
+df112f176e647093bf421adf993172e7 is already present in chain
+block recieved at Node_7 
+new txn gen by Node_6 at time 12464.133605530498
+new txn gen by Node_9 at time 12492.602971185715
+new txn gen by Node_3 at time 12503.37994885119
+new txn gen by Node_6 at time 12732.027703033453
+new txn gen by Node_8 at time 12736.332644775543
+new txn gen by Node_0 at time 12816.458797128853
+new txn gen by Node_4 at time 12820.688376118153
+new txn gen by Node_6 at time 12845.420379006122
+new txn gen by Node_5 at time 12887.414318914003
+new txn gen by Node_4 at time 12909.493126386704
+new txn gen by Node_4 at time 13003.080078259496
+new txn gen by Node_8 at time 13028.722924228128
+new txn gen by Node_1 at time 13032.573918200891
+new txn gen by Node_6 at time 13110.313416732462
+new txn gen by Node_3 at time 13120.326183161205
+new txn gen by Node_9 at time 13185.94615661421
+new txn gen by Node_1 at time 13221.119645889406
+new txn gen by Node_6 at time 13290.708225036335
+new txn gen by Node_2 at time 13434.659909006972
+new txn gen by Node_6 at time 13478.728466255654
+new txn gen by Node_5 at time 13533.37074822942
+new txn gen by Node_3 at time 13887.8601048587
+new txn gen by Node_1 at time 14012.160757256166
+new txn gen by Node_1 at time 14025.458945726321
+new txn gen by Node_7 at time 14036.740779662352
+new txn gen by Node_4 at time 14075.21592302905
+new txn gen by Node_4 at time 14083.219419354311
+new txn gen by Node_8 at time 14133.207737403622
+new txn gen by Node_5 at time 14249.418358463461
+new txn gen by Node_5 at time 14310.408670843792
+new txn gen by Node_0 at time 14384.437769710406
+new txn gen by Node_7 at time 14402.251550843004
+new txn gen by Node_6 at time 14502.872520308683
+new txn gen by Node_8 at time 14503.131250080856
+new txn gen by Node_7 at time 14540.014935202784
+new txn gen by Node_2 at time 14583.76297106361
+new txn gen by Node_5 at time 14605.72530241189
+new txn gen by Node_4 at time 14617.204609928367
+new txn gen by Node_1 at time 14678.151054311938
+new txn gen by Node_6 at time 14703.637523098627
+new txn gen by Node_5 at time 14732.969691401102
+new txn gen by Node_5 at time 14758.999097860356
+new txn gen by Node_1 at time 14827.301227598064
+new txn gen by Node_9 at time 14850.15937089158
+new txn gen by Node_8 at time 14859.929345619437
+new txn gen by Node_9 at time 14908.846086710526
+new txn gen by Node_6 at time 14930.198545372543
+new txn gen by Node_8 at time 14953.061811667076
+new txn gen by Node_5 at time 14992.650943720248
+new txn gen by Node_6 at time 15002.480302050595
+new txn gen by Node_2 at time 15155.36434688778
+new txn gen by Node_1 at time 15245.325210231196
+new txn gen by Node_0 at time 15335.506283449593
+new txn gen by Node_1 at time 15350.011585274333
+new txn gen by Node_6 at time 15462.105423423
+new txn gen by Node_8 at time 15566.155802471458
+new txn gen by Node_6 at time 15579.203771455166
+new txn gen by Node_5 at time 15600.465227416102
+new txn gen by Node_4 at time 15648.601502293961
+new txn gen by Node_8 at time 15671.435941257187
+genrated id 3708c3c5f2711cffaef8e1c5a49431b4
+Generated Block is Valid Block by Node_7 at time 15798.290820423155
+new block recieved by block by Node_3
+Fork detected at peer ID:3 for block ID:3708c3c5f2711cffaef8e1c5a49431b4
+block recieved at Node_3 
+broadcasting block by Node_3 at 15946.156635967074 of msg 3708c3c5f2711cffaef8e1c5a49431b4 to all neighbors
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 16024.647697467695 of msg 3708c3c5f2711cffaef8e1c5a49431b4 to all neighbors
+new txn gen by Node_4 at time 16044.086856476195
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 16067.15355492206 of msg 3708c3c5f2711cffaef8e1c5a49431b4 to all neighbors
+new txn gen by Node_8 at time 16083.203851381482
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:3708c3c5f2711cffaef8e1c5a49431b4
+block recieved at Node_5 
+broadcasting block by Node_5 at 16124.43958385942 of msg 3708c3c5f2711cffaef8e1c5a49431b4 to all neighbors
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:3708c3c5f2711cffaef8e1c5a49431b4
+block recieved at Node_2 
+broadcasting block by Node_2 at 16137.428732604734 of msg 3708c3c5f2711cffaef8e1c5a49431b4 to all neighbors
+new txn gen by Node_5 at time 16139.895876889535
+3708c3c5f2711cffaef8e1c5a49431b4 is already present in chain
+block recieved at Node_8 
+new txn gen by Node_9 at time 16170.223903076288
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 16175.800829984268 of msg 3708c3c5f2711cffaef8e1c5a49431b4 to all neighbors
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:3708c3c5f2711cffaef8e1c5a49431b4
+block recieved at Node_6 
+broadcasting block by Node_6 at 16224.707847863254 of msg 3708c3c5f2711cffaef8e1c5a49431b4 to all neighbors
+new block recieved by block by Node_9
+Fork detected at peer ID:9 for block ID:3708c3c5f2711cffaef8e1c5a49431b4
+block recieved at Node_9 
+broadcasting block by Node_9 at 16235.321952540311 of msg 3708c3c5f2711cffaef8e1c5a49431b4 to all neighbors
+3708c3c5f2711cffaef8e1c5a49431b4 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_1 at time 16266.543610688936
+3708c3c5f2711cffaef8e1c5a49431b4 is already present in chain
+block recieved at Node_9 
+3708c3c5f2711cffaef8e1c5a49431b4 is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 16349.325298782853 of msg 3708c3c5f2711cffaef8e1c5a49431b4 to all neighbors
+new txn gen by Node_9 at time 16354.116120195986
+3708c3c5f2711cffaef8e1c5a49431b4 is already present in chain
+block recieved at Node_6 
+new txn gen by Node_6 at time 16381.396919580953
+3708c3c5f2711cffaef8e1c5a49431b4 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_5 at time 16419.07388598717
+new txn gen by Node_6 at time 16467.40080037288
+3708c3c5f2711cffaef8e1c5a49431b4 is already present in chain
+block recieved at Node_4 
+3708c3c5f2711cffaef8e1c5a49431b4 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_8 at time 16515.23491087946
+new txn gen by Node_8 at time 16520.402132737512
+new txn gen by Node_4 at time 16544.599900652094
+new txn gen by Node_3 at time 16551.84674425194
+3708c3c5f2711cffaef8e1c5a49431b4 is already present in chain
+block recieved at Node_6 
+new txn gen by Node_0 at time 16655.479022065327
+new txn gen by Node_7 at time 16707.984231580464
+new txn gen by Node_0 at time 16723.45038517499
+new txn gen by Node_2 at time 16812.159361121416
+new txn gen by Node_9 at time 16833.20631380526
+new txn gen by Node_6 at time 16897.88255247174
+new txn gen by Node_2 at time 16966.986779245613
+new txn gen by Node_6 at time 16970.040230573537
+new txn gen by Node_9 at time 16971.08383808516
+new txn gen by Node_6 at time 17015.434587759515
+new txn gen by Node_3 at time 17051.57632643241
+new txn gen by Node_5 at time 17068.410930368642
+new txn gen by Node_5 at time 17102.559814702818
+new txn gen by Node_4 at time 17103.007899598608
+new txn gen by Node_9 at time 17123.07296562795
+new txn gen by Node_6 at time 17205.623912184168
+new txn gen by Node_2 at time 17219.28127274634
+new txn gen by Node_0 at time 17221.16948071947
+new txn gen by Node_6 at time 17229.025991162755
+new txn gen by Node_4 at time 17258.946691350608
+new txn gen by Node_2 at time 17279.409751711202
+new txn gen by Node_4 at time 17358.186629962012
+new txn gen by Node_7 at time 17504.691868349764
+new txn gen by Node_4 at time 17549.8149051927
+new txn gen by Node_4 at time 17569.477170220336
+new txn gen by Node_2 at time 17600.852578503578
+new txn gen by Node_0 at time 17699.36099753604
+genrated id 178bddfc6c93aa92a34c9c5652c6e630
+Generated Block is Valid Block by Node_9 at time 17785.21147747188
+new txn gen by Node_0 at time 17910.697794778003
+new txn gen by Node_8 at time 17914.888183902218
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 17958.275074860765 of msg 178bddfc6c93aa92a34c9c5652c6e630 to all neighbors
+new block recieved by block by Node_0
+State 0' 0
+block recieved at Node_0 
+broadcasting block by Node_0 at 18037.86663525753 of msg 178bddfc6c93aa92a34c9c5652c6e630 to all neighbors
+broadcasting block by Node_0 at 18037.86663525753 of msg c1a3cfc00f531524f05f64209a299e37 to all neighbors
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 18058.50410333194 of msg 178bddfc6c93aa92a34c9c5652c6e630 to all neighbors
+new txn gen by Node_6 at time 18065.084358997636
+new txn gen by Node_6 at time 18068.238522940526
+new txn gen by Node_6 at time 18089.56763786833
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:178bddfc6c93aa92a34c9c5652c6e630
+block recieved at Node_4 
+broadcasting block by Node_4 at 18104.05061304746 of msg 178bddfc6c93aa92a34c9c5652c6e630 to all neighbors
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 18104.467080466246 of msg 178bddfc6c93aa92a34c9c5652c6e630 to all neighbors
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 18161.411283370402 of msg 178bddfc6c93aa92a34c9c5652c6e630 to all neighbors
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:178bddfc6c93aa92a34c9c5652c6e630
+block recieved at Node_7 
+broadcasting block by Node_7 at 18172.86523943525 of msg 178bddfc6c93aa92a34c9c5652c6e630 to all neighbors
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:178bddfc6c93aa92a34c9c5652c6e630
+block recieved at Node_2 
+broadcasting block by Node_2 at 18180.858048466027 of msg 178bddfc6c93aa92a34c9c5652c6e630 to all neighbors
+178bddfc6c93aa92a34c9c5652c6e630 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 18282.40577162814 of msg 178bddfc6c93aa92a34c9c5652c6e630 to all neighbors
+new txn gen by Node_8 at time 18301.532964947706
+new block recieved by block by Node_9
+Fork detected at peer ID:9 for block ID:c1a3cfc00f531524f05f64209a299e37
+block recieved at Node_9 
+broadcasting block by Node_9 at 18329.15043203555 of msg c1a3cfc00f531524f05f64209a299e37 to all neighbors
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 18367.64724658055 of msg c1a3cfc00f531524f05f64209a299e37 to all neighbors
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 18371.84024354578 of msg c1a3cfc00f531524f05f64209a299e37 to all neighbors
+new txn gen by Node_8 at time 18404.0037507899
+new txn gen by Node_3 at time 18428.138419142142
+178bddfc6c93aa92a34c9c5652c6e630 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 18440.7634334327 of msg c1a3cfc00f531524f05f64209a299e37 to all neighbors
+178bddfc6c93aa92a34c9c5652c6e630 is already present in chain
+block recieved at Node_4 
+178bddfc6c93aa92a34c9c5652c6e630 is already present in chain
+block recieved at Node_7 
+178bddfc6c93aa92a34c9c5652c6e630 is already present in chain
+block recieved at Node_8 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 18488.629160064458 of msg c1a3cfc00f531524f05f64209a299e37 to all neighbors
+new txn gen by Node_2 at time 18495.434284236435
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 18502.26887457173 of msg c1a3cfc00f531524f05f64209a299e37 to all neighbors
+178bddfc6c93aa92a34c9c5652c6e630 is already present in chain
+block recieved at Node_8 
+new txn gen by Node_3 at time 18528.698767217913
+c1a3cfc00f531524f05f64209a299e37 is already present in chain
+block recieved at Node_5 
+new txn gen by Node_7 at time 18547.53122701762
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 18558.90422716572 of msg c1a3cfc00f531524f05f64209a299e37 to all neighbors
+new txn gen by Node_6 at time 18561.374128750904
+c1a3cfc00f531524f05f64209a299e37 is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 18602.490688325423 of msg c1a3cfc00f531524f05f64209a299e37 to all neighbors
+new txn gen by Node_4 at time 18621.368788662094
+new txn gen by Node_6 at time 18621.908496893302
+178bddfc6c93aa92a34c9c5652c6e630 is already present in chain
+block recieved at Node_8 
+c1a3cfc00f531524f05f64209a299e37 is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 18648.451828036603 of msg c1a3cfc00f531524f05f64209a299e37 to all neighbors
+c1a3cfc00f531524f05f64209a299e37 is already present in chain
+block recieved at Node_1 
+new txn gen by Node_2 at time 18669.32972932209
+c1a3cfc00f531524f05f64209a299e37 is already present in chain
+block recieved at Node_7 
+new txn gen by Node_1 at time 18679.632924863407
+new txn gen by Node_7 at time 18704.484445847305
+new txn gen by Node_0 at time 18714.43621015056
+c1a3cfc00f531524f05f64209a299e37 is already present in chain
+block recieved at Node_2 
+new txn gen by Node_7 at time 18751.05722640866
+c1a3cfc00f531524f05f64209a299e37 is already present in chain
+block recieved at Node_8 
+new txn gen by Node_3 at time 18769.555500180337
+c1a3cfc00f531524f05f64209a299e37 is already present in chain
+block recieved at Node_6 
+c1a3cfc00f531524f05f64209a299e37 is already present in chain
+block recieved at Node_8 
+new txn gen by Node_8 at time 18823.869967856484
+c1a3cfc00f531524f05f64209a299e37 is already present in chain
+block recieved at Node_6 
+new txn gen by Node_5 at time 18857.357439057654
+new txn gen by Node_6 at time 18913.483159860814
+c1a3cfc00f531524f05f64209a299e37 is already present in chain
+block recieved at Node_1 
+new txn gen by Node_0 at time 18938.57394954877
+new txn gen by Node_9 at time 18955.624289327712
+new txn gen by Node_8 at time 18973.57226605067
+new txn gen by Node_2 at time 18999.227686103983
+new txn gen by Node_4 at time 19096.84576796003
+new txn gen by Node_1 at time 19101.57129468184
+new txn gen by Node_7 at time 19308.033147873673
+new txn gen by Node_7 at time 19407.665542744806
+new txn gen by Node_3 at time 19447.072621261857
+new txn gen by Node_1 at time 19447.535412505273
+new txn gen by Node_9 at time 19514.527082692588
+new txn gen by Node_0 at time 19529.997418466784
+new txn gen by Node_3 at time 19544.797341393056
+new txn gen by Node_1 at time 19545.70170860092
+new txn gen by Node_9 at time 19705.86288933179
+new txn gen by Node_4 at time 19797.596903120873
+new txn gen by Node_9 at time 19834.86283153381
+new txn gen by Node_4 at time 19946.857849374042
+new txn gen by Node_1 at time 19984.176154337656
+new txn gen by Node_3 at time 20022.393573376034
+genrated id cef7496d48d475f4a563a79da395ddae
+Generated Block is Valid Block by Node_2 at time 20043.009343832862
+new txn gen by Node_2 at time 20102.579568058594
+new txn gen by Node_4 at time 20131.581038229502
+new txn gen by Node_9 at time 20274.90273579417
+new txn gen by Node_9 at time 20300.504900108404
+new txn gen by Node_5 at time 20388.057635058653
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 20418.65542943077 of msg cef7496d48d475f4a563a79da395ddae to all neighbors
+new txn gen by Node_2 at time 20424.3765164846
+new txn gen by Node_6 at time 20443.94275608485
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:cef7496d48d475f4a563a79da395ddae
+block recieved at Node_5 
+broadcasting block by Node_5 at 20487.777218430678 of msg cef7496d48d475f4a563a79da395ddae to all neighbors
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 20497.498849137617 of msg cef7496d48d475f4a563a79da395ddae to all neighbors
+new txn gen by Node_3 at time 20498.75185486888
+new txn gen by Node_5 at time 20525.317328780962
+new txn gen by Node_7 at time 20542.261512855446
+new txn gen by Node_0 at time 20566.688044575967
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:cef7496d48d475f4a563a79da395ddae
+block recieved at Node_6 
+broadcasting block by Node_6 at 20588.006362201882 of msg cef7496d48d475f4a563a79da395ddae to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 20598.6181035716 of msg cef7496d48d475f4a563a79da395ddae to all neighbors
+new txn gen by Node_1 at time 20609.854606976747
+genrated id c2ddbf83c6c0400acdb71d69a74491e8
+Generated Block is Valid Block by Node_4 at time 20611.27833366333
+new txn gen by Node_3 at time 20657.876870597698
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:c2ddbf83c6c0400acdb71d69a74491e8
+block recieved at Node_7 
+broadcasting block by Node_7 at 20680.083923997317 of msg c2ddbf83c6c0400acdb71d69a74491e8 to all neighbors
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 20690.91774652776 of msg cef7496d48d475f4a563a79da395ddae to all neighbors
+new txn gen by Node_1 at time 20720.785906106805
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 20724.964171763648 of msg c2ddbf83c6c0400acdb71d69a74491e8 to all neighbors
+new txn gen by Node_0 at time 20724.96532335607
+new txn gen by Node_1 at time 20738.576974804622
+new txn gen by Node_4 at time 20768.882676012792
+cef7496d48d475f4a563a79da395ddae is already present in chain
+block recieved at Node_3 
+new txn gen by Node_6 at time 20778.07665094035
+new txn gen by Node_1 at time 20800.65863785523
+cef7496d48d475f4a563a79da395ddae is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_0
+State 0' to 0 without attacker block 0
+block recieved at Node_0 
+broadcasting block by Node_0 at 20820.393542855585 of msg c2ddbf83c6c0400acdb71d69a74491e8 to all neighbors
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 20827.971783481284 of msg c2ddbf83c6c0400acdb71d69a74491e8 to all neighbors
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 20851.25343368436 of msg cef7496d48d475f4a563a79da395ddae to all neighbors
+new txn gen by Node_1 at time 20869.020091191924
+new txn gen by Node_1 at time 20884.005576090833
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 20898.018083477637 of msg c2ddbf83c6c0400acdb71d69a74491e8 to all neighbors
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 20906.439957024006 of msg c2ddbf83c6c0400acdb71d69a74491e8 to all neighbors
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:cef7496d48d475f4a563a79da395ddae
+block recieved at Node_4 
+broadcasting block by Node_4 at 20908.314857962683 of msg cef7496d48d475f4a563a79da395ddae to all neighbors
+cef7496d48d475f4a563a79da395ddae is already present in chain
+block recieved at Node_4 
+cef7496d48d475f4a563a79da395ddae is already present in chain
+block recieved at Node_4 
+c2ddbf83c6c0400acdb71d69a74491e8 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 20948.960417841678 of msg c2ddbf83c6c0400acdb71d69a74491e8 to all neighbors
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 20966.86826733553 of msg cef7496d48d475f4a563a79da395ddae to all neighbors
+cef7496d48d475f4a563a79da395ddae is already present in chain
+block recieved at Node_7 
+c2ddbf83c6c0400acdb71d69a74491e8 is already present in chain
+block recieved at Node_0 
+cef7496d48d475f4a563a79da395ddae is already present in chain
+block recieved at Node_4 
+new txn gen by Node_7 at time 20984.85633316826
+c2ddbf83c6c0400acdb71d69a74491e8 is already present in chain
+block recieved at Node_8 
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 20998.2703969063 of msg c2ddbf83c6c0400acdb71d69a74491e8 to all neighbors
+new txn gen by Node_6 at time 20999.44516090195
+cef7496d48d475f4a563a79da395ddae is already present in chain
+block recieved at Node_7 
+c2ddbf83c6c0400acdb71d69a74491e8 is already present in chain
+block recieved at Node_5 
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:c2ddbf83c6c0400acdb71d69a74491e8
+block recieved at Node_2 
+broadcasting block by Node_2 at 21019.236495019497 of msg c2ddbf83c6c0400acdb71d69a74491e8 to all neighbors
+c2ddbf83c6c0400acdb71d69a74491e8 is already present in chain
+block recieved at Node_8 
+new txn gen by Node_2 at time 21071.751624169614
+c2ddbf83c6c0400acdb71d69a74491e8 is already present in chain
+block recieved at Node_6 
+cef7496d48d475f4a563a79da395ddae is already present in chain
+block recieved at Node_0 
+c2ddbf83c6c0400acdb71d69a74491e8 is already present in chain
+block recieved at Node_2 
+new txn gen by Node_9 at time 21122.722749759374
+c2ddbf83c6c0400acdb71d69a74491e8 is already present in chain
+block recieved at Node_6 
+new txn gen by Node_2 at time 21248.36835627081
+new txn gen by Node_3 at time 21396.417455869894
+new txn gen by Node_5 at time 21455.012531310716
+new txn gen by Node_1 at time 21480.833987366506
+new txn gen by Node_4 at time 21503.092772652046
+new txn gen by Node_2 at time 21509.879628958097
+new txn gen by Node_7 at time 21543.218359346363
+new txn gen by Node_5 at time 21613.10886636958
+new txn gen by Node_8 at time 21663.19623392541
+new txn gen by Node_0 at time 21769.73260352797
+new txn gen by Node_9 at time 21995.27429661871
+new txn gen by Node_3 at time 22330.986058425136
+new txn gen by Node_1 at time 22434.21730072442
+new txn gen by Node_1 at time 22467.053787879227
+genrated id a0f6d19537d619c55c8b34b57e9d467c
+Generated Block is Valid Block by Node_7 at time 22485.535431499728
+new txn gen by Node_7 at time 22562.60733597914
+new txn gen by Node_6 at time 22612.94298712571
+new block recieved by block by Node_3
+Fork detected at peer ID:3 for block ID:a0f6d19537d619c55c8b34b57e9d467c
+block recieved at Node_3 
+broadcasting block by Node_3 at 22633.412943953936 of msg a0f6d19537d619c55c8b34b57e9d467c to all neighbors
+new txn gen by Node_8 at time 22643.14998421749
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 22711.892633155006 of msg a0f6d19537d619c55c8b34b57e9d467c to all neighbors
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 22754.41275586432 of msg a0f6d19537d619c55c8b34b57e9d467c to all neighbors
+new txn gen by Node_3 at time 22799.837701154054
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:a0f6d19537d619c55c8b34b57e9d467c
+block recieved at Node_5 
+broadcasting block by Node_5 at 22811.690473652056 of msg a0f6d19537d619c55c8b34b57e9d467c to all neighbors
+new txn gen by Node_8 at time 22814.68513408899
+new txn gen by Node_8 at time 22820.944464607255
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 22824.69034435423 of msg a0f6d19537d619c55c8b34b57e9d467c to all neighbors
+a0f6d19537d619c55c8b34b57e9d467c is already present in chain
+block recieved at Node_8 
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:a0f6d19537d619c55c8b34b57e9d467c
+block recieved at Node_4 
+broadcasting block by Node_4 at 22863.0517551364 of msg a0f6d19537d619c55c8b34b57e9d467c to all neighbors
+new txn gen by Node_8 at time 22870.53098215162
+new txn gen by Node_6 at time 22911.539771096155
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:a0f6d19537d619c55c8b34b57e9d467c
+block recieved at Node_6 
+broadcasting block by Node_6 at 22911.94433696958 of msg a0f6d19537d619c55c8b34b57e9d467c to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 22922.539145190283 of msg a0f6d19537d619c55c8b34b57e9d467c to all neighbors
+new txn gen by Node_3 at time 22926.13924521963
+new txn gen by Node_4 at time 22936.850289138987
+a0f6d19537d619c55c8b34b57e9d467c is already present in chain
+block recieved at Node_4 
+a0f6d19537d619c55c8b34b57e9d467c is already present in chain
+block recieved at Node_9 
+new txn gen by Node_0 at time 23011.592746041602
+a0f6d19537d619c55c8b34b57e9d467c is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_0
+State 0' 0
+block recieved at Node_0 
+broadcasting block by Node_0 at 23036.60890214762 of msg a0f6d19537d619c55c8b34b57e9d467c to all neighbors
+broadcasting block by Node_0 at 23036.60890214762 of msg c96bfc9e063191897e5b8b393ab46268 to all neighbors
+a0f6d19537d619c55c8b34b57e9d467c is already present in chain
+block recieved at Node_6 
+new txn gen by Node_9 at time 23071.763305640285
+a0f6d19537d619c55c8b34b57e9d467c is already present in chain
+block recieved at Node_0 
+new txn gen by Node_0 at time 23093.054145781774
+new txn gen by Node_4 at time 23136.088598682603
+a0f6d19537d619c55c8b34b57e9d467c is already present in chain
+block recieved at Node_4 
+a0f6d19537d619c55c8b34b57e9d467c is already present in chain
+block recieved at Node_0 
+new txn gen by Node_4 at time 23281.395083612977
+new txn gen by Node_2 at time 23294.144290099986
+a0f6d19537d619c55c8b34b57e9d467c is already present in chain
+block recieved at Node_6 
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 23327.934314297003 of msg c96bfc9e063191897e5b8b393ab46268 to all neighbors
+new txn gen by Node_4 at time 23358.350104521596
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 23366.391433514644 of msg c96bfc9e063191897e5b8b393ab46268 to all neighbors
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 23370.623948984055 of msg c96bfc9e063191897e5b8b393ab46268 to all neighbors
+new txn gen by Node_3 at time 23397.443784080293
+new txn gen by Node_4 at time 23404.972649823543
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:c96bfc9e063191897e5b8b393ab46268
+block recieved at Node_7 
+broadcasting block by Node_7 at 23439.449927483074 of msg c96bfc9e063191897e5b8b393ab46268 to all neighbors
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 23487.382401639105 of msg c96bfc9e063191897e5b8b393ab46268 to all neighbors
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:c96bfc9e063191897e5b8b393ab46268
+block recieved at Node_5 
+broadcasting block by Node_5 at 23500.993320998063 of msg c96bfc9e063191897e5b8b393ab46268 to all neighbors
+c96bfc9e063191897e5b8b393ab46268 is already present in chain
+block recieved at Node_5 
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 23557.65756503752 of msg c96bfc9e063191897e5b8b393ab46268 to all neighbors
+new txn gen by Node_8 at time 23558.156698658746
+new txn gen by Node_1 at time 23565.295544813016
+new txn gen by Node_9 at time 23576.158445260786
+new txn gen by Node_8 at time 23582.02665166315
+new txn gen by Node_3 at time 23592.23775027389
+c96bfc9e063191897e5b8b393ab46268 is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:c96bfc9e063191897e5b8b393ab46268
+block recieved at Node_6 
+broadcasting block by Node_6 at 23601.22298593271 of msg c96bfc9e063191897e5b8b393ab46268 to all neighbors
+genrated id f99e1ddb9ed2d334fe165f96056f0263
+Generated Block is Valid Block by Node_4 at time 23620.827234036286
+c96bfc9e063191897e5b8b393ab46268 is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 23647.184142801183 of msg c96bfc9e063191897e5b8b393ab46268 to all neighbors
+c96bfc9e063191897e5b8b393ab46268 is already present in chain
+block recieved at Node_1 
+c96bfc9e063191897e5b8b393ab46268 is already present in chain
+block recieved at Node_7 
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 23689.646401772305 of msg f99e1ddb9ed2d334fe165f96056f0263 to all neighbors
+new txn gen by Node_3 at time 23694.786909596995
+c96bfc9e063191897e5b8b393ab46268 is already present in chain
+block recieved at Node_2 
+new txn gen by Node_3 at time 23734.083283713633
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 23734.50968951193 of msg f99e1ddb9ed2d334fe165f96056f0263 to all neighbors
+c96bfc9e063191897e5b8b393ab46268 is already present in chain
+block recieved at Node_8 
+new txn gen by Node_4 at time 23761.36486129403
+c96bfc9e063191897e5b8b393ab46268 is already present in chain
+block recieved at Node_6 
+c96bfc9e063191897e5b8b393ab46268 is already present in chain
+block recieved at Node_8 
+new block recieved by block by Node_0
+State 0' to 0 without attacker block 0
+block recieved at Node_0 
+broadcasting block by Node_0 at 23829.93814530602 of msg f99e1ddb9ed2d334fe165f96056f0263 to all neighbors
+c96bfc9e063191897e5b8b393ab46268 is already present in chain
+block recieved at Node_6 
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 23837.527173238504 of msg f99e1ddb9ed2d334fe165f96056f0263 to all neighbors
+new txn gen by Node_0 at time 23840.693961667937
+new txn gen by Node_9 at time 23862.140423269862
+new txn gen by Node_1 at time 23895.350843876484
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 23907.582847755584 of msg f99e1ddb9ed2d334fe165f96056f0263 to all neighbors
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 23916.00272269688 of msg f99e1ddb9ed2d334fe165f96056f0263 to all neighbors
+c96bfc9e063191897e5b8b393ab46268 is already present in chain
+block recieved at Node_1 
+f99e1ddb9ed2d334fe165f96056f0263 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 23958.55365063496 of msg f99e1ddb9ed2d334fe165f96056f0263 to all neighbors
+new txn gen by Node_2 at time 23975.83888525995
+f99e1ddb9ed2d334fe165f96056f0263 is already present in chain
+block recieved at Node_0 
+f99e1ddb9ed2d334fe165f96056f0263 is already present in chain
+block recieved at Node_8 
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:f99e1ddb9ed2d334fe165f96056f0263
+block recieved at Node_6 
+broadcasting block by Node_6 at 24007.820095752355 of msg f99e1ddb9ed2d334fe165f96056f0263 to all neighbors
+f99e1ddb9ed2d334fe165f96056f0263 is already present in chain
+block recieved at Node_5 
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 24028.82869788912 of msg f99e1ddb9ed2d334fe165f96056f0263 to all neighbors
+f99e1ddb9ed2d334fe165f96056f0263 is already present in chain
+block recieved at Node_8 
+new txn gen by Node_6 at time 24079.235294919352
+f99e1ddb9ed2d334fe165f96056f0263 is already present in chain
+block recieved at Node_6 
+new txn gen by Node_5 at time 24092.072970642737
+f99e1ddb9ed2d334fe165f96056f0263 is already present in chain
+block recieved at Node_2 
+f99e1ddb9ed2d334fe165f96056f0263 is already present in chain
+block recieved at Node_6 
+new txn gen by Node_9 at time 24282.285678115466
+new txn gen by Node_0 at time 24329.943531389505
+new txn gen by Node_0 at time 24347.993841508054
+new txn gen by Node_3 at time 24427.908271660825
+new txn gen by Node_1 at time 24428.63367632145
+new txn gen by Node_9 at time 24436.02146984847
+new txn gen by Node_1 at time 24484.933512228203
+new txn gen by Node_3 at time 24530.625665029253
+new txn gen by Node_2 at time 24698.81433617265
+new txn gen by Node_7 at time 24774.5949693828
+new txn gen by Node_5 at time 24890.151709785147
+new txn gen by Node_5 at time 24955.992664110807
+new txn gen by Node_0 at time 24962.605883895198
+genrated id 3e51610d6ac005ae2a8b93e76fab84c2
+Generated Block is Valid Block by Node_4 at time 25061.24519177067
+new txn gen by Node_6 at time 25064.608364951546
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 25130.054813813138 of msg 3e51610d6ac005ae2a8b93e76fab84c2 to all neighbors
+new txn gen by Node_9 at time 25164.40904755163
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 25174.909015399324 of msg 3e51610d6ac005ae2a8b93e76fab84c2 to all neighbors
+new txn gen by Node_4 at time 25183.1976188613
+new txn gen by Node_4 at time 25195.235937624428
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 25270.344205494766 of msg 3e51610d6ac005ae2a8b93e76fab84c2 to all neighbors
+new txn gen by Node_1 at time 25272.499784399584
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 25277.93139563455 of msg 3e51610d6ac005ae2a8b93e76fab84c2 to all neighbors
+new txn gen by Node_8 at time 25285.565408947554
+new txn gen by Node_2 at time 25300.913948194408
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 25347.967171841545 of msg 3e51610d6ac005ae2a8b93e76fab84c2 to all neighbors
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 25356.412125239953 of msg 3e51610d6ac005ae2a8b93e76fab84c2 to all neighbors
+3e51610d6ac005ae2a8b93e76fab84c2 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 25398.95381203784 of msg 3e51610d6ac005ae2a8b93e76fab84c2 to all neighbors
+new txn gen by Node_3 at time 25400.71334861007
+genrated id 617147f41b3b1e4e03a4150c935c3c20
+Generated Block is Valid Block by Node_4 at time 25403.14880123561
+3e51610d6ac005ae2a8b93e76fab84c2 is already present in chain
+block recieved at Node_0 
+3e51610d6ac005ae2a8b93e76fab84c2 is already present in chain
+block recieved at Node_8 
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:3e51610d6ac005ae2a8b93e76fab84c2
+block recieved at Node_6 
+broadcasting block by Node_6 at 25448.191316096418 of msg 3e51610d6ac005ae2a8b93e76fab84c2 to all neighbors
+3e51610d6ac005ae2a8b93e76fab84c2 is already present in chain
+block recieved at Node_5 
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:3e51610d6ac005ae2a8b93e76fab84c2
+block recieved at Node_2 
+broadcasting block by Node_2 at 25469.228748644877 of msg 3e51610d6ac005ae2a8b93e76fab84c2 to all neighbors
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 25471.97371301284 of msg 617147f41b3b1e4e03a4150c935c3c20 to all neighbors
+3e51610d6ac005ae2a8b93e76fab84c2 is already present in chain
+block recieved at Node_8 
+new txn gen by Node_8 at time 25494.467720368382
+new block recieved by block by Node_9
+Fork detected at peer ID:9 for block ID:617147f41b3b1e4e03a4150c935c3c20
+block recieved at Node_9 
+broadcasting block by Node_9 at 25516.81960385646 of msg 617147f41b3b1e4e03a4150c935c3c20 to all neighbors
+new txn gen by Node_4 at time 25523.083857776517
+3e51610d6ac005ae2a8b93e76fab84c2 is already present in chain
+block recieved at Node_6 
+3e51610d6ac005ae2a8b93e76fab84c2 is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 25612.26676408104 of msg 617147f41b3b1e4e03a4150c935c3c20 to all neighbors
+new block recieved by block by Node_3
+Fork detected at peer ID:3 for block ID:617147f41b3b1e4e03a4150c935c3c20
+block recieved at Node_3 
+broadcasting block by Node_3 at 25619.860946736404 of msg 617147f41b3b1e4e03a4150c935c3c20 to all neighbors
+new txn gen by Node_6 at time 25652.857274121965
+new txn gen by Node_2 at time 25664.85429883617
+3e51610d6ac005ae2a8b93e76fab84c2 is already present in chain
+block recieved at Node_6 
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 25689.880594698687 of msg 617147f41b3b1e4e03a4150c935c3c20 to all neighbors
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 25698.33126934641 of msg 617147f41b3b1e4e03a4150c935c3c20 to all neighbors
+new txn gen by Node_8 at time 25700.163687743763
+617147f41b3b1e4e03a4150c935c3c20 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 25740.84378942104 of msg 617147f41b3b1e4e03a4150c935c3c20 to all neighbors
+new txn gen by Node_5 at time 25752.318738395752
+617147f41b3b1e4e03a4150c935c3c20 is already present in chain
+block recieved at Node_0 
+617147f41b3b1e4e03a4150c935c3c20 is already present in chain
+block recieved at Node_8 
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:617147f41b3b1e4e03a4150c935c3c20
+block recieved at Node_6 
+broadcasting block by Node_6 at 25790.172757358054 of msg 617147f41b3b1e4e03a4150c935c3c20 to all neighbors
+new txn gen by Node_7 at time 25791.486636543897
+617147f41b3b1e4e03a4150c935c3c20 is already present in chain
+block recieved at Node_5 
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 25811.11868185638 of msg 617147f41b3b1e4e03a4150c935c3c20 to all neighbors
+617147f41b3b1e4e03a4150c935c3c20 is already present in chain
+block recieved at Node_8 
+617147f41b3b1e4e03a4150c935c3c20 is already present in chain
+block recieved at Node_6 
+new txn gen by Node_5 at time 25907.32979380813
+617147f41b3b1e4e03a4150c935c3c20 is already present in chain
+block recieved at Node_2 
+new txn gen by Node_6 at time 25947.997385659328
+new txn gen by Node_0 at time 25962.1673589227
+new txn gen by Node_2 at time 25971.593258849516
+new txn gen by Node_7 at time 26027.92372095632
+617147f41b3b1e4e03a4150c935c3c20 is already present in chain
+block recieved at Node_6 
+new txn gen by Node_8 at time 26076.566435418463
+new txn gen by Node_9 at time 26168.452953769374
+new txn gen by Node_3 at time 26170.532525254737
+new txn gen by Node_3 at time 26256.991796411436
+new txn gen by Node_8 at time 26342.622797826796
+new txn gen by Node_4 at time 26382.211602622145
+new txn gen by Node_0 at time 26383.225722180985
+new txn gen by Node_1 at time 26561.097567201963
+new txn gen by Node_7 at time 26629.852034073938
+new txn gen by Node_6 at time 26662.402784906346
+new txn gen by Node_9 at time 26788.253101538212
+new txn gen by Node_3 at time 26836.99749046892
+new txn gen by Node_2 at time 26868.485838162305
+new txn gen by Node_2 at time 26933.119675882135
+new txn gen by Node_5 at time 27090.20228419884
+new txn gen by Node_6 at time 27096.53210265181
+genrated id 5ee564878cd977fb67998bf4bdada7fa
+Generated Block is Valid Block by Node_6 at time 27315.092472022327
+new txn gen by Node_0 at time 27349.33169670005
+new txn gen by Node_9 at time 27355.298911786627
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 27361.053834612 of msg 5ee564878cd977fb67998bf4bdada7fa to all neighbors
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:5ee564878cd977fb67998bf4bdada7fa
+block recieved at Node_5 
+broadcasting block by Node_5 at 27368.51596479474 of msg 5ee564878cd977fb67998bf4bdada7fa to all neighbors
+new txn gen by Node_4 at time 27422.658463741027
+genrated id 7f60a903c6cb95df6efc4c960e802750
+Generated Block is Valid Block by Node_5 at time 27426.48947994301
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 27479.36453050481 of msg 5ee564878cd977fb67998bf4bdada7fa to all neighbors
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:7f60a903c6cb95df6efc4c960e802750
+block recieved at Node_6 
+broadcasting block by Node_6 at 27526.733461680626 of msg 7f60a903c6cb95df6efc4c960e802750 to all neighbors
+new txn gen by Node_1 at time 27532.641262212976
+new block recieved by block by Node_3
+Fork detected at peer ID:3 for block ID:5ee564878cd977fb67998bf4bdada7fa
+block recieved at Node_3 
+broadcasting block by Node_3 at 27534.743255276502 of msg 5ee564878cd977fb67998bf4bdada7fa to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 27537.339847660576 of msg 7f60a903c6cb95df6efc4c960e802750 to all neighbors
+new txn gen by Node_4 at time 27555.571293865196
+5ee564878cd977fb67998bf4bdada7fa is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 27572.69456162308 of msg 7f60a903c6cb95df6efc4c960e802750 to all neighbors
+genrated id 8af21316d0de609cef482fd437b31b9c
+Generated Block is Valid Block by Node_7 at time 27582.267658720204
+new txn gen by Node_1 at time 27582.820893183733
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:5ee564878cd977fb67998bf4bdada7fa
+block recieved at Node_2 
+broadcasting block by Node_2 at 27591.10905497935 of msg 5ee564878cd977fb67998bf4bdada7fa to all neighbors
+new txn gen by Node_8 at time 27620.869121334137
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 27629.627055240824 of msg 7f60a903c6cb95df6efc4c960e802750 to all neighbors
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 27649.097143694646 of msg 7f60a903c6cb95df6efc4c960e802750 to all neighbors
+new txn gen by Node_3 at time 27649.63083189472
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 27655.74950369837 of msg 5ee564878cd977fb67998bf4bdada7fa to all neighbors
+new txn gen by Node_0 at time 27703.028688190163
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:5ee564878cd977fb67998bf4bdada7fa
+block recieved at Node_4 
+broadcasting block by Node_4 at 27707.957781751214 of msg 5ee564878cd977fb67998bf4bdada7fa to all neighbors
+new txn gen by Node_6 at time 27728.652619314227
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 27730.14459674593 of msg 8af21316d0de609cef482fd437b31b9c to all neighbors
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 27731.983353620755 of msg 5ee564878cd977fb67998bf4bdada7fa to all neighbors
+new txn gen by Node_2 at time 27745.622010351086
+7f60a903c6cb95df6efc4c960e802750 is already present in chain
+block recieved at Node_3 
+new txn gen by Node_9 at time 27749.24500834002
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 27750.617289361468 of msg 7f60a903c6cb95df6efc4c960e802750 to all neighbors
+new txn gen by Node_9 at time 27764.246806221083
+5ee564878cd977fb67998bf4bdada7fa is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:5ee564878cd977fb67998bf4bdada7fa
+block recieved at Node_7 
+broadcasting block by Node_7 at 27776.762199621473 of msg 5ee564878cd977fb67998bf4bdada7fa to all neighbors
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 27789.956345348197 of msg 7f60a903c6cb95df6efc4c960e802750 to all neighbors
+new txn gen by Node_8 at time 27793.626967237265
+5ee564878cd977fb67998bf4bdada7fa is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 27808.625367023542 of msg 8af21316d0de609cef482fd437b31b9c to all neighbors
+new txn gen by Node_2 at time 27808.986249538248
+5ee564878cd977fb67998bf4bdada7fa is already present in chain
+block recieved at Node_7 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 27851.191220068486 of msg 8af21316d0de609cef482fd437b31b9c to all neighbors
+new txn gen by Node_1 at time 27852.638939080087
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 27856.154847643815 of msg 7f60a903c6cb95df6efc4c960e802750 to all neighbors
+7f60a903c6cb95df6efc4c960e802750 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_8 at time 27865.63049471939
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:8af21316d0de609cef482fd437b31b9c
+block recieved at Node_5 
+broadcasting block by Node_5 at 27908.421383050772 of msg 8af21316d0de609cef482fd437b31b9c to all neighbors
+5ee564878cd977fb67998bf4bdada7fa is already present in chain
+block recieved at Node_0 
+7f60a903c6cb95df6efc4c960e802750 is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 27921.466722228048 of msg 8af21316d0de609cef482fd437b31b9c to all neighbors
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 27924.996808480315 of msg 7f60a903c6cb95df6efc4c960e802750 to all neighbors
+8af21316d0de609cef482fd437b31b9c is already present in chain
+block recieved at Node_8 
+5ee564878cd977fb67998bf4bdada7fa is already present in chain
+block recieved at Node_0 
+7f60a903c6cb95df6efc4c960e802750 is already present in chain
+block recieved at Node_7 
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 27959.78195884739 of msg 8af21316d0de609cef482fd437b31b9c to all neighbors
+new txn gen by Node_8 at time 28005.556777371567
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 28008.64508919727 of msg 8af21316d0de609cef482fd437b31b9c to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 28019.26790789685 of msg 8af21316d0de609cef482fd437b31b9c to all neighbors
+new txn gen by Node_0 at time 28031.921597443023
+7f60a903c6cb95df6efc4c960e802750 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_7 at time 28037.663974053314
+5ee564878cd977fb67998bf4bdada7fa is already present in chain
+block recieved at Node_8 
+8af21316d0de609cef482fd437b31b9c is already present in chain
+block recieved at Node_4 
+genrated id eedab5224d7dda7481af551eb4c983a8
+Generated Block is Valid Block by Node_3 at time 28051.1366626868
+5ee564878cd977fb67998bf4bdada7fa is already present in chain
+block recieved at Node_4 
+8af21316d0de609cef482fd437b31b9c is already present in chain
+block recieved at Node_9 
+new txn gen by Node_4 at time 28081.226898023102
+7f60a903c6cb95df6efc4c960e802750 is already present in chain
+block recieved at Node_8 
+5ee564878cd977fb67998bf4bdada7fa is already present in chain
+block recieved at Node_7 
+8af21316d0de609cef482fd437b31b9c is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 28133.329973821004 of msg 8af21316d0de609cef482fd437b31b9c to all neighbors
+8af21316d0de609cef482fd437b31b9c is already present in chain
+block recieved at Node_6 
+7f60a903c6cb95df6efc4c960e802750 is already present in chain
+block recieved at Node_4 
+8af21316d0de609cef482fd437b31b9c is already present in chain
+block recieved at Node_0 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 28172.11934342263 of msg eedab5224d7dda7481af551eb4c983a8 to all neighbors
+7f60a903c6cb95df6efc4c960e802750 is already present in chain
+block recieved at Node_7 
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 28229.438296669516 of msg eedab5224d7dda7481af551eb4c983a8 to all neighbors
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:eedab5224d7dda7481af551eb4c983a8
+block recieved at Node_2 
+broadcasting block by Node_2 at 28242.39457643148 of msg eedab5224d7dda7481af551eb4c983a8 to all neighbors
+8af21316d0de609cef482fd437b31b9c is already present in chain
+block recieved at Node_4 
+new txn gen by Node_3 at time 28267.634871659007
+8af21316d0de609cef482fd437b31b9c is already present in chain
+block recieved at Node_0 
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 28280.78990000027 of msg eedab5224d7dda7481af551eb4c983a8 to all neighbors
+new txn gen by Node_8 at time 28311.093307269784
+new txn gen by Node_4 at time 28326.963930450744
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:eedab5224d7dda7481af551eb4c983a8
+block recieved at Node_6 
+broadcasting block by Node_6 at 28329.666426500222 of msg eedab5224d7dda7481af551eb4c983a8 to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 28340.30895911083 of msg eedab5224d7dda7481af551eb4c983a8 to all neighbors
+new txn gen by Node_4 at time 28342.131259578484
+new txn gen by Node_8 at time 28342.49345542226
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 28349.613692987718 of msg eedab5224d7dda7481af551eb4c983a8 to all neighbors
+new txn gen by Node_2 at time 28354.04527272315
+eedab5224d7dda7481af551eb4c983a8 is already present in chain
+block recieved at Node_7 
+new txn gen by Node_9 at time 28374.721727568663
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 28375.631209370775 of msg eedab5224d7dda7481af551eb4c983a8 to all neighbors
+eedab5224d7dda7481af551eb4c983a8 is already present in chain
+block recieved at Node_9 
+8af21316d0de609cef482fd437b31b9c is already present in chain
+block recieved at Node_6 
+new txn gen by Node_4 at time 28426.39594891124
+new txn gen by Node_9 at time 28428.02753257811
+new txn gen by Node_5 at time 28451.210509178825
+eedab5224d7dda7481af551eb4c983a8 is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 28454.308810742466 of msg eedab5224d7dda7481af551eb4c983a8 to all neighbors
+eedab5224d7dda7481af551eb4c983a8 is already present in chain
+block recieved at Node_6 
+eedab5224d7dda7481af551eb4c983a8 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_5 at time 28544.394780039536
+new txn gen by Node_1 at time 28563.222281980226
+eedab5224d7dda7481af551eb4c983a8 is already present in chain
+block recieved at Node_1 
+new txn gen by Node_9 at time 28579.68565815544
+eedab5224d7dda7481af551eb4c983a8 is already present in chain
+block recieved at Node_4 
+eedab5224d7dda7481af551eb4c983a8 is already present in chain
+block recieved at Node_0 
+eedab5224d7dda7481af551eb4c983a8 is already present in chain
+block recieved at Node_1 
+eedab5224d7dda7481af551eb4c983a8 is already present in chain
+block recieved at Node_7 
+new txn gen by Node_8 at time 28738.545346711628
+eedab5224d7dda7481af551eb4c983a8 is already present in chain
+block recieved at Node_6 
+new txn gen by Node_2 at time 28816.5287111144
+new txn gen by Node_9 at time 28940.992837935162
+genrated id f63c3cec9959edd0342def177136c18a
+Generated Block is Valid Block by Node_2 at time 29024.86101998683
+new txn gen by Node_6 at time 29065.757429596266
+new txn gen by Node_7 at time 29134.53442266238
+new txn gen by Node_7 at time 29154.03201005401
+new txn gen by Node_8 at time 29164.154457736222
+new txn gen by Node_2 at time 29182.55792325733
+new txn gen by Node_7 at time 29218.136654911847
+new txn gen by Node_5 at time 29322.66655652046
+new txn gen by Node_5 at time 29357.27542792748
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 29400.506251388488 of msg f63c3cec9959edd0342def177136c18a to all neighbors
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:f63c3cec9959edd0342def177136c18a
+block recieved at Node_5 
+broadcasting block by Node_5 at 29469.610381485494 of msg f63c3cec9959edd0342def177136c18a to all neighbors
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 29479.350458561144 of msg f63c3cec9959edd0342def177136c18a to all neighbors
+new txn gen by Node_7 at time 29542.2844605627
+new txn gen by Node_5 at time 29569.10112594409
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 29569.834641493257 of msg f63c3cec9959edd0342def177136c18a to all neighbors
+genrated id c2fcb9c12b75e9c91df6af928df08d6f
+Generated Block is Valid Block by Node_3 at time 29579.9552387026
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 29580.465961564125 of msg f63c3cec9959edd0342def177136c18a to all neighbors
+new txn gen by Node_4 at time 29604.48182810133
+new txn gen by Node_2 at time 29664.040863310423
+new txn gen by Node_0 at time 29670.81607075368
+new block recieved by block by Node_3
+Fork detected at peer ID:3 for block ID:f63c3cec9959edd0342def177136c18a
+block recieved at Node_3 
+broadcasting block by Node_3 at 29672.754453256508 of msg f63c3cec9959edd0342def177136c18a to all neighbors
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 29700.940795814604 of msg c2fcb9c12b75e9c91df6af928df08d6f to all neighbors
+new txn gen by Node_8 at time 29731.330711469487
+new txn gen by Node_9 at time 29743.136231318207
+f63c3cec9959edd0342def177136c18a is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 29758.25272829983 of msg c2fcb9c12b75e9c91df6af928df08d6f to all neighbors
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:c2fcb9c12b75e9c91df6af928df08d6f
+block recieved at Node_2 
+broadcasting block by Node_2 at 29771.218229954982 of msg c2fcb9c12b75e9c91df6af928df08d6f to all neighbors
+new txn gen by Node_2 at time 29773.660891579922
+f63c3cec9959edd0342def177136c18a is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:c2fcb9c12b75e9c91df6af928df08d6f
+block recieved at Node_4 
+broadcasting block by Node_4 at 29809.59152978737 of msg c2fcb9c12b75e9c91df6af928df08d6f to all neighbors
+new txn gen by Node_6 at time 29812.904350829354
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 29833.08334073295 of msg f63c3cec9959edd0342def177136c18a to all neighbors
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:c2fcb9c12b75e9c91df6af928df08d6f
+block recieved at Node_6 
+broadcasting block by Node_6 at 29858.496395483635 of msg c2fcb9c12b75e9c91df6af928df08d6f to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 29869.135278356283 of msg c2fcb9c12b75e9c91df6af928df08d6f to all neighbors
+new txn gen by Node_3 at time 29874.667898269858
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:c2fcb9c12b75e9c91df6af928df08d6f
+block recieved at Node_7 
+broadcasting block by Node_7 at 29878.41696333042 of msg c2fcb9c12b75e9c91df6af928df08d6f to all neighbors
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 29890.273879227174 of msg f63c3cec9959edd0342def177136c18a to all neighbors
+c2fcb9c12b75e9c91df6af928df08d6f is already present in chain
+block recieved at Node_7 
+f63c3cec9959edd0342def177136c18a is already present in chain
+block recieved at Node_4 
+f63c3cec9959edd0342def177136c18a is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 29904.45775086625 of msg c2fcb9c12b75e9c91df6af928df08d6f to all neighbors
+c2fcb9c12b75e9c91df6af928df08d6f is already present in chain
+block recieved at Node_9 
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 29948.72023119049 of msg f63c3cec9959edd0342def177136c18a to all neighbors
+f63c3cec9959edd0342def177136c18a is already present in chain
+block recieved at Node_7 
+f63c3cec9959edd0342def177136c18a is already present in chain
+block recieved at Node_4 
+new txn gen by Node_2 at time 29966.17432188117
+c2fcb9c12b75e9c91df6af928df08d6f is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 29983.167006996486 of msg c2fcb9c12b75e9c91df6af928df08d6f to all neighbors
+f63c3cec9959edd0342def177136c18a is already present in chain
+block recieved at Node_7 
+c2fcb9c12b75e9c91df6af928df08d6f is already present in chain
+block recieved at Node_6 
+new txn gen by Node_2 at time 29989.253879663705
+c2fcb9c12b75e9c91df6af928df08d6f is already present in chain
+block recieved at Node_0 
+new txn gen by Node_1 at time 30053.900151301437
+f63c3cec9959edd0342def177136c18a is already present in chain
+block recieved at Node_0 
+new txn gen by Node_9 at time 30096.525772123903
+c2fcb9c12b75e9c91df6af928df08d6f is already present in chain
+block recieved at Node_1 
+c2fcb9c12b75e9c91df6af928df08d6f is already present in chain
+block recieved at Node_4 
+new txn gen by Node_7 at time 30118.63792571687
+c2fcb9c12b75e9c91df6af928df08d6f is already present in chain
+block recieved at Node_0 
+c2fcb9c12b75e9c91df6af928df08d6f is already present in chain
+block recieved at Node_1 
+c2fcb9c12b75e9c91df6af928df08d6f is already present in chain
+block recieved at Node_7 
+new txn gen by Node_4 at time 30199.983535098392
+new txn gen by Node_0 at time 30249.541075801862
+c2fcb9c12b75e9c91df6af928df08d6f is already present in chain
+block recieved at Node_6 
+new txn gen by Node_5 at time 30312.420467980526
+new txn gen by Node_5 at time 30383.861022411413
+new txn gen by Node_7 at time 30477.52928189218
+new txn gen by Node_3 at time 30506.888918607347
+new txn gen by Node_9 at time 30550.388919337624
+new txn gen by Node_4 at time 30554.19314746778
+new txn gen by Node_0 at time 30555.22470259959
+new txn gen by Node_6 at time 30580.8327381427
+new txn gen by Node_5 at time 30634.30969252555
+new txn gen by Node_2 at time 30699.23242162939
+new txn gen by Node_6 at time 30728.338676250343
+new txn gen by Node_0 at time 30745.894176740116
+new txn gen by Node_4 at time 30771.48482705381
+new txn gen by Node_2 at time 30815.86733695346
+new txn gen by Node_9 at time 30907.2471104574
+new txn gen by Node_3 at time 30947.55154176929
+new txn gen by Node_0 at time 30977.219980132366
+new txn gen by Node_2 at time 30996.285143226058
+new txn gen by Node_6 at time 31258.58260820596
+new txn gen by Node_4 at time 31378.728906748725
+genrated id bd67cc0e65d10776028ef07375996809
+Generated Block is Valid Block by Node_9 at time 31429.173389692136
+new txn gen by Node_9 at time 31439.783910804523
+new txn gen by Node_6 at time 31461.937249049628
+new txn gen by Node_7 at time 31467.703017539145
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 31602.23866500785 of msg bd67cc0e65d10776028ef07375996809 to all neighbors
+genrated id 149ba5ea0a333068dea20573f696fd09
+Generated Block is Valid Block by Node_2 at time 31650.172404723235
+genrated id f1cb97bb111f74398d31ec1ff347c970
+Generated Block is Valid Block by Node_3 at time 31662.25747547302
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 31681.799465650474 of msg bd67cc0e65d10776028ef07375996809 to all neighbors
+new txn gen by Node_0 at time 31687.610169951924
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:bd67cc0e65d10776028ef07375996809
+block recieved at Node_6 
+broadcasting block by Node_6 at 31702.47937194306 of msg bd67cc0e65d10776028ef07375996809 to all neighbors
+new txn gen by Node_6 at time 31714.487301988902
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:bd67cc0e65d10776028ef07375996809
+block recieved at Node_4 
+broadcasting block by Node_4 at 31747.99277002094 of msg bd67cc0e65d10776028ef07375996809 to all neighbors
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 31748.441564229623 of msg bd67cc0e65d10776028ef07375996809 to all neighbors
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 31783.245039163405 of msg f1cb97bb111f74398d31ec1ff347c970 to all neighbors
+genrated id 67d95b464a5ab13af613403627be7525
+Generated Block is Valid Block by Node_7 at time 31793.747735455483
+new txn gen by Node_1 at time 31795.37647444864
+new block recieved by block by Node_3
+Fork detected at peer ID:3 for block ID:bd67cc0e65d10776028ef07375996809
+block recieved at Node_3 
+broadcasting block by Node_3 at 31805.34938666642 of msg bd67cc0e65d10776028ef07375996809 to all neighbors
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:bd67cc0e65d10776028ef07375996809
+block recieved at Node_7 
+broadcasting block by Node_7 at 31816.80806848559 of msg bd67cc0e65d10776028ef07375996809 to all neighbors
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:bd67cc0e65d10776028ef07375996809
+block recieved at Node_2 
+broadcasting block by Node_2 at 31824.832379216106 of msg bd67cc0e65d10776028ef07375996809 to all neighbors
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 31840.543769005133 of msg f1cb97bb111f74398d31ec1ff347c970 to all neighbors
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 31853.520529327434 of msg f1cb97bb111f74398d31ec1ff347c970 to all neighbors
+new txn gen by Node_4 at time 31877.3147161366
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 31891.895694843828 of msg f1cb97bb111f74398d31ec1ff347c970 to all neighbors
+new txn gen by Node_8 at time 31906.20775136805
+bd67cc0e65d10776028ef07375996809 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 31926.34732020679 of msg bd67cc0e65d10776028ef07375996809 to all neighbors
+new txn gen by Node_7 at time 31936.994393346533
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:f1cb97bb111f74398d31ec1ff347c970
+block recieved at Node_6 
+broadcasting block by Node_6 at 31940.786368298464 of msg f1cb97bb111f74398d31ec1ff347c970 to all neighbors
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 31941.648947178044 of msg 67d95b464a5ab13af613403627be7525 to all neighbors
+new block recieved by block by Node_9
+Fork detected at peer ID:9 for block ID:f1cb97bb111f74398d31ec1ff347c970
+block recieved at Node_9 
+broadcasting block by Node_9 at 31951.40723210288 of msg f1cb97bb111f74398d31ec1ff347c970 to all neighbors
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 31960.70359965895 of msg f1cb97bb111f74398d31ec1ff347c970 to all neighbors
+f1cb97bb111f74398d31ec1ff347c970 is already present in chain
+block recieved at Node_7 
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 31986.748894257835 of msg f1cb97bb111f74398d31ec1ff347c970 to all neighbors
+new txn gen by Node_9 at time 31995.179923104195
+f1cb97bb111f74398d31ec1ff347c970 is already present in chain
+block recieved at Node_9 
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 32020.10443609727 of msg 67d95b464a5ab13af613403627be7525 to all neighbors
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 32025.817711223695 of msg 149ba5ea0a333068dea20573f696fd09 to all neighbors
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 32062.65047630521 of msg 67d95b464a5ab13af613403627be7525 to all neighbors
+f1cb97bb111f74398d31ec1ff347c970 is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 32065.426030432965 of msg f1cb97bb111f74398d31ec1ff347c970 to all neighbors
+f1cb97bb111f74398d31ec1ff347c970 is already present in chain
+block recieved at Node_6 
+bd67cc0e65d10776028ef07375996809 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 32094.89620454588 of msg 149ba5ea0a333068dea20573f696fd09 to all neighbors
+bd67cc0e65d10776028ef07375996809 is already present in chain
+block recieved at Node_4 
+f1cb97bb111f74398d31ec1ff347c970 is already present in chain
+block recieved at Node_0 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 32104.662169788277 of msg 149ba5ea0a333068dea20573f696fd09 to all neighbors
+bd67cc0e65d10776028ef07375996809 is already present in chain
+block recieved at Node_7 
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 32119.92682077098 of msg 67d95b464a5ab13af613403627be7525 to all neighbors
+bd67cc0e65d10776028ef07375996809 is already present in chain
+block recieved at Node_8 
+new txn gen by Node_4 at time 32131.32086678762
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 32132.925372951388 of msg 67d95b464a5ab13af613403627be7525 to all neighbors
+67d95b464a5ab13af613403627be7525 is already present in chain
+block recieved at Node_8 
+bd67cc0e65d10776028ef07375996809 is already present in chain
+block recieved at Node_8 
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 32171.293310055105 of msg 67d95b464a5ab13af613403627be7525 to all neighbors
+new txn gen by Node_1 at time 32171.923690761545
+f1cb97bb111f74398d31ec1ff347c970 is already present in chain
+block recieved at Node_1 
+f1cb97bb111f74398d31ec1ff347c970 is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 32195.122247708598 of msg 149ba5ea0a333068dea20573f696fd09 to all neighbors
+f1cb97bb111f74398d31ec1ff347c970 is already present in chain
+block recieved at Node_0 
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 32205.768317353908 of msg 149ba5ea0a333068dea20573f696fd09 to all neighbors
+new txn gen by Node_3 at time 32211.62755430794
+new block recieved by block by Node_6
+block recieved at Node_6 
+broadcasting block by Node_6 at 32220.17869109895 of msg 67d95b464a5ab13af613403627be7525 to all neighbors
+f1cb97bb111f74398d31ec1ff347c970 is already present in chain
+block recieved at Node_1 
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 32230.828083427026 of msg 67d95b464a5ab13af613403627be7525 to all neighbors
+new txn gen by Node_7 at time 32239.988007331205
+f1cb97bb111f74398d31ec1ff347c970 is already present in chain
+block recieved at Node_7 
+67d95b464a5ab13af613403627be7525 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_8 at time 32277.32678527719
+bd67cc0e65d10776028ef07375996809 is already present in chain
+block recieved at Node_8 
+67d95b464a5ab13af613403627be7525 is already present in chain
+block recieved at Node_9 
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 32298.010960854954 of msg 149ba5ea0a333068dea20573f696fd09 to all neighbors
+67d95b464a5ab13af613403627be7525 is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 32344.84350607845 of msg 67d95b464a5ab13af613403627be7525 to all neighbors
+67d95b464a5ab13af613403627be7525 is already present in chain
+block recieved at Node_6 
+f1cb97bb111f74398d31ec1ff347c970 is already present in chain
+block recieved at Node_6 
+149ba5ea0a333068dea20573f696fd09 is already present in chain
+block recieved at Node_3 
+67d95b464a5ab13af613403627be7525 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_2 at time 32399.150904146205
+149ba5ea0a333068dea20573f696fd09 is already present in chain
+block recieved at Node_3 
+new txn gen by Node_2 at time 32434.937556918983
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 32458.442715334448 of msg 149ba5ea0a333068dea20573f696fd09 to all neighbors
+67d95b464a5ab13af613403627be7525 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_3 at time 32475.423647882948
+67d95b464a5ab13af613403627be7525 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_4 at time 32503.633361701348
+new txn gen by Node_2 at time 32510.471980601335
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:149ba5ea0a333068dea20573f696fd09
+block recieved at Node_4 
+broadcasting block by Node_4 at 32515.512211528112 of msg 149ba5ea0a333068dea20573f696fd09 to all neighbors
+149ba5ea0a333068dea20573f696fd09 is already present in chain
+block recieved at Node_4 
+149ba5ea0a333068dea20573f696fd09 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_7 at time 32543.492943158195
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 32574.03182188467 of msg 149ba5ea0a333068dea20573f696fd09 to all neighbors
+149ba5ea0a333068dea20573f696fd09 is already present in chain
+block recieved at Node_7 
+149ba5ea0a333068dea20573f696fd09 is already present in chain
+block recieved at Node_4 
+149ba5ea0a333068dea20573f696fd09 is already present in chain
+block recieved at Node_7 
+67d95b464a5ab13af613403627be7525 is already present in chain
+block recieved at Node_6 
+149ba5ea0a333068dea20573f696fd09 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_3 at time 32706.208699294202
+new txn gen by Node_6 at time 32737.536944880027
+new txn gen by Node_6 at time 32760.15613938565
+new txn gen by Node_2 at time 32761.53476967173
+new txn gen by Node_2 at time 32785.85091764841
+new txn gen by Node_5 at time 32834.986708342985
+new txn gen by Node_2 at time 32888.67220627442
+new txn gen by Node_5 at time 32904.585584065266
+new txn gen by Node_3 at time 32943.658561966295
+genrated id 3de46cc8b49d3d6f37119410ed416d93
+Generated Block is Valid Block by Node_9 at time 33119.776591832684
+new txn gen by Node_6 at time 33125.53909824498
+new txn gen by Node_4 at time 33139.78633659293
+new txn gen by Node_2 at time 33144.73273364232
+new txn gen by Node_4 at time 33156.45975781733
+new txn gen by Node_1 at time 33164.3793376712
+new txn gen by Node_9 at time 33177.73741111469
+new txn gen by Node_3 at time 33200.44870010323
+new txn gen by Node_6 at time 33250.59057782832
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:3de46cc8b49d3d6f37119410ed416d93
+block recieved at Node_5 
+broadcasting block by Node_5 at 33292.841741962715 of msg 3de46cc8b49d3d6f37119410ed416d93 to all neighbors
+new txn gen by Node_9 at time 33323.344002166305
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 33372.419347069175 of msg 3de46cc8b49d3d6f37119410ed416d93 to all neighbors
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:3de46cc8b49d3d6f37119410ed416d93
+block recieved at Node_6 
+broadcasting block by Node_6 at 33393.07694247331 of msg 3de46cc8b49d3d6f37119410ed416d93 to all neighbors
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 33438.62048520608 of msg 3de46cc8b49d3d6f37119410ed416d93 to all neighbors
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 33439.03890254671 of msg 3de46cc8b49d3d6f37119410ed416d93 to all neighbors
+new txn gen by Node_9 at time 33441.49824069487
+new block recieved by block by Node_3
+block recieved at Node_3 
+broadcasting block by Node_3 at 33495.97390822827 of msg 3de46cc8b49d3d6f37119410ed416d93 to all neighbors
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:3de46cc8b49d3d6f37119410ed416d93
+block recieved at Node_7 
+broadcasting block by Node_7 at 33507.440087472736 of msg 3de46cc8b49d3d6f37119410ed416d93 to all neighbors
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:3de46cc8b49d3d6f37119410ed416d93
+block recieved at Node_2 
+broadcasting block by Node_2 at 33515.433738030566 of msg 3de46cc8b49d3d6f37119410ed416d93 to all neighbors
+new txn gen by Node_6 at time 33517.4103113293
+new txn gen by Node_0 at time 33589.56160747886
+3de46cc8b49d3d6f37119410ed416d93 is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 33616.95890114253 of msg 3de46cc8b49d3d6f37119410ed416d93 to all neighbors
+3de46cc8b49d3d6f37119410ed416d93 is already present in chain
+block recieved at Node_3 
+3de46cc8b49d3d6f37119410ed416d93 is already present in chain
+block recieved at Node_4 
+3de46cc8b49d3d6f37119410ed416d93 is already present in chain
+block recieved at Node_7 
+3de46cc8b49d3d6f37119410ed416d93 is already present in chain
+block recieved at Node_8 
+new txn gen by Node_2 at time 33857.818151880805
+3de46cc8b49d3d6f37119410ed416d93 is already present in chain
+block recieved at Node_8 
+new txn gen by Node_0 at time 33898.394875467915
+new txn gen by Node_8 at time 33908.7829188165
+genrated id 13834f0ba432b5e9a90b9bdea9e862f8
+Generated Block is Valid Block by Node_3 at time 33915.14436253828
+new txn gen by Node_1 at time 33953.870842151
+3de46cc8b49d3d6f37119410ed416d93 is already present in chain
+block recieved at Node_8 
+new txn gen by Node_8 at time 33973.99341918027
+new txn gen by Node_3 at time 34022.0950523229
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 34036.126934255 of msg 13834f0ba432b5e9a90b9bdea9e862f8 to all neighbors
+new txn gen by Node_8 at time 34050.22185861553
+new txn gen by Node_1 at time 34059.41826934906
+new txn gen by Node_2 at time 34065.40259265533
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:13834f0ba432b5e9a90b9bdea9e862f8
+block recieved at Node_5 
+broadcasting block by Node_5 at 34093.423992629585 of msg 13834f0ba432b5e9a90b9bdea9e862f8 to all neighbors
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 34106.402399857594 of msg 13834f0ba432b5e9a90b9bdea9e862f8 to all neighbors
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 34144.7818769495 of msg 13834f0ba432b5e9a90b9bdea9e862f8 to all neighbors
+new txn gen by Node_1 at time 34175.23634815928
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:13834f0ba432b5e9a90b9bdea9e862f8
+block recieved at Node_6 
+broadcasting block by Node_6 at 34193.656209168075 of msg 13834f0ba432b5e9a90b9bdea9e862f8 to all neighbors
+new block recieved by block by Node_9
+Fork detected at peer ID:9 for block ID:13834f0ba432b5e9a90b9bdea9e862f8
+block recieved at Node_9 
+broadcasting block by Node_9 at 34204.26265508018 of msg 13834f0ba432b5e9a90b9bdea9e862f8 to all neighbors
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 34213.608131412126 of msg 13834f0ba432b5e9a90b9bdea9e862f8 to all neighbors
+13834f0ba432b5e9a90b9bdea9e862f8 is already present in chain
+block recieved at Node_7 
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 34239.61784345414 of msg 13834f0ba432b5e9a90b9bdea9e862f8 to all neighbors
+13834f0ba432b5e9a90b9bdea9e862f8 is already present in chain
+block recieved at Node_9 
+13834f0ba432b5e9a90b9bdea9e862f8 is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 34318.327091134255 of msg 13834f0ba432b5e9a90b9bdea9e862f8 to all neighbors
+13834f0ba432b5e9a90b9bdea9e862f8 is already present in chain
+block recieved at Node_6 
+13834f0ba432b5e9a90b9bdea9e862f8 is already present in chain
+block recieved at Node_0 
+13834f0ba432b5e9a90b9bdea9e862f8 is already present in chain
+block recieved at Node_1 
+13834f0ba432b5e9a90b9bdea9e862f8 is already present in chain
+block recieved at Node_4 
+13834f0ba432b5e9a90b9bdea9e862f8 is already present in chain
+block recieved at Node_0 
+13834f0ba432b5e9a90b9bdea9e862f8 is already present in chain
+block recieved at Node_1 
+new txn gen by Node_1 at time 34495.36706727713
+13834f0ba432b5e9a90b9bdea9e862f8 is already present in chain
+block recieved at Node_7 
+13834f0ba432b5e9a90b9bdea9e862f8 is already present in chain
+block recieved at Node_6 
+new txn gen by Node_3 at time 34648.3382280008
+new txn gen by Node_1 at time 34664.14747545806
+new txn gen by Node_5 at time 34665.2070349702
+new txn gen by Node_6 at time 34673.90016607304
+new txn gen by Node_0 at time 34700.4408516412
+new txn gen by Node_7 at time 34770.18940991684
+new txn gen by Node_6 at time 34803.56550974162
+new txn gen by Node_0 at time 34837.09378428918
+new txn gen by Node_5 at time 34903.39711921054
+new txn gen by Node_4 at time 34935.27849593803
+new txn gen by Node_2 at time 34975.50106879463
+new txn gen by Node_0 at time 35055.31729813303
+new txn gen by Node_7 at time 35067.53232700602
+new txn gen by Node_0 at time 35093.11422801831
+new txn gen by Node_8 at time 35127.28369911303
+new txn gen by Node_0 at time 35164.209788275715
+genrated id f2194b29eb54c8c75d085f2bdbaf0dc9
+Generated Block is Valid Block by Node_3 at time 35202.64336177982
+new txn gen by Node_2 at time 35204.64751803762
+new txn gen by Node_6 at time 35232.98604653614
+new txn gen by Node_3 at time 35240.86964323037
+new txn gen by Node_2 at time 35249.34538988705
+new txn gen by Node_2 at time 35268.442605568016
+new txn gen by Node_1 at time 35272.36081476455
+new txn gen by Node_9 at time 35278.17769130546
+new txn gen by Node_0 at time 35297.319702287656
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 35323.62615041162 of msg f2194b29eb54c8c75d085f2bdbaf0dc9 to all neighbors
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:f2194b29eb54c8c75d085f2bdbaf0dc9
+block recieved at Node_5 
+broadcasting block by Node_5 at 35380.96368923156 of msg f2194b29eb54c8c75d085f2bdbaf0dc9 to all neighbors
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:f2194b29eb54c8c75d085f2bdbaf0dc9
+block recieved at Node_2 
+broadcasting block by Node_2 at 35393.90330446513 of msg f2194b29eb54c8c75d085f2bdbaf0dc9 to all neighbors
+new txn gen by Node_9 at time 35409.718203641554
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:f2194b29eb54c8c75d085f2bdbaf0dc9
+block recieved at Node_4 
+broadcasting block by Node_4 at 35432.31099620015 of msg f2194b29eb54c8c75d085f2bdbaf0dc9 to all neighbors
+new txn gen by Node_2 at time 35439.93162691552
+new txn gen by Node_3 at time 35455.03544601421
+new txn gen by Node_8 at time 35472.644061640225
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:f2194b29eb54c8c75d085f2bdbaf0dc9
+block recieved at Node_6 
+broadcasting block by Node_6 at 35481.226675667305 of msg f2194b29eb54c8c75d085f2bdbaf0dc9 to all neighbors
+new txn gen by Node_0 at time 35483.3334724122
+new block recieved by block by Node_9
+Fork detected at peer ID:9 for block ID:f2194b29eb54c8c75d085f2bdbaf0dc9
+block recieved at Node_9 
+broadcasting block by Node_9 at 35491.82042875089 of msg f2194b29eb54c8c75d085f2bdbaf0dc9 to all neighbors
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:f2194b29eb54c8c75d085f2bdbaf0dc9
+block recieved at Node_7 
+broadcasting block by Node_7 at 35501.120108346986 of msg f2194b29eb54c8c75d085f2bdbaf0dc9 to all neighbors
+f2194b29eb54c8c75d085f2bdbaf0dc9 is already present in chain
+block recieved at Node_7 
+new txn gen by Node_4 at time 35521.490349682426
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 35527.189365179336 of msg f2194b29eb54c8c75d085f2bdbaf0dc9 to all neighbors
+f2194b29eb54c8c75d085f2bdbaf0dc9 is already present in chain
+block recieved at Node_9 
+new txn gen by Node_3 at time 35565.174398453455
+new txn gen by Node_2 at time 35576.860201922784
+new txn gen by Node_4 at time 35589.38256095801
+f2194b29eb54c8c75d085f2bdbaf0dc9 is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 35605.82766620558 of msg f2194b29eb54c8c75d085f2bdbaf0dc9 to all neighbors
+f2194b29eb54c8c75d085f2bdbaf0dc9 is already present in chain
+block recieved at Node_6 
+new txn gen by Node_2 at time 35624.06260595382
+f2194b29eb54c8c75d085f2bdbaf0dc9 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_5 at time 35669.100543908295
+new txn gen by Node_3 at time 35684.016940458736
+f2194b29eb54c8c75d085f2bdbaf0dc9 is already present in chain
+block recieved at Node_1 
+f2194b29eb54c8c75d085f2bdbaf0dc9 is already present in chain
+block recieved at Node_4 
+f2194b29eb54c8c75d085f2bdbaf0dc9 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_0 at time 35760.19503119931
+f2194b29eb54c8c75d085f2bdbaf0dc9 is already present in chain
+block recieved at Node_1 
+f2194b29eb54c8c75d085f2bdbaf0dc9 is already present in chain
+block recieved at Node_7 
+new txn gen by Node_2 at time 35841.90006596436
+new txn gen by Node_6 at time 35855.08218545673
+new txn gen by Node_3 at time 35878.25527056851
+genrated id c52b057857d538ff2b6fa4ac0794f169
+Generated Block is Valid Block by Node_2 at time 35879.95137163511
+f2194b29eb54c8c75d085f2bdbaf0dc9 is already present in chain
+block recieved at Node_6 
+genrated id 2f881418f3afb1517cc2ef6c4579a0ae
+Generated Block is Valid Block by Node_6 at time 35946.713962596994
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 35992.67608959414 of msg 2f881418f3afb1517cc2ef6c4579a0ae to all neighbors
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:2f881418f3afb1517cc2ef6c4579a0ae
+block recieved at Node_5 
+broadcasting block by Node_5 at 36000.154110007854 of msg 2f881418f3afb1517cc2ef6c4579a0ae to all neighbors
+new txn gen by Node_6 at time 36004.31260912971
+new txn gen by Node_1 at time 36052.88800118909
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 36111.00045486028 of msg 2f881418f3afb1517cc2ef6c4579a0ae to all neighbors
+new txn gen by Node_4 at time 36114.90198736008
+new txn gen by Node_4 at time 36129.673562517666
+new txn gen by Node_8 at time 36160.452661979776
+new block recieved by block by Node_3
+Fork detected at peer ID:3 for block ID:2f881418f3afb1517cc2ef6c4579a0ae
+block recieved at Node_3 
+broadcasting block by Node_3 at 36166.357198095655 of msg 2f881418f3afb1517cc2ef6c4579a0ae to all neighbors
+new txn gen by Node_9 at time 36181.11894752523
+new txn gen by Node_9 at time 36185.09856551382
+2f881418f3afb1517cc2ef6c4579a0ae is already present in chain
+block recieved at Node_3 
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:2f881418f3afb1517cc2ef6c4579a0ae
+block recieved at Node_2 
+broadcasting block by Node_2 at 36222.74514225138 of msg 2f881418f3afb1517cc2ef6c4579a0ae to all neighbors
+new txn gen by Node_2 at time 36244.76932689694
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 36255.59660710156 of msg c52b057857d538ff2b6fa4ac0794f169 to all neighbors
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 36287.341235889595 of msg 2f881418f3afb1517cc2ef6c4579a0ae to all neighbors
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 36324.678817000575 of msg c52b057857d538ff2b6fa4ac0794f169 to all neighbors
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 36334.44430625852 of msg c52b057857d538ff2b6fa4ac0794f169 to all neighbors
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:2f881418f3afb1517cc2ef6c4579a0ae
+block recieved at Node_4 
+broadcasting block by Node_4 at 36339.57036262957 of msg 2f881418f3afb1517cc2ef6c4579a0ae to all neighbors
+new txn gen by Node_0 at time 36349.085549577256
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 36363.638056700656 of msg 2f881418f3afb1517cc2ef6c4579a0ae to all neighbors
+new txn gen by Node_7 at time 36379.61505010299
+2f881418f3afb1517cc2ef6c4579a0ae is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 36408.39184562314 of msg 2f881418f3afb1517cc2ef6c4579a0ae to all neighbors
+new txn gen by Node_6 at time 36415.06313823905
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:c52b057857d538ff2b6fa4ac0794f169
+block recieved at Node_6 
+broadcasting block by Node_6 at 36424.921735568096 of msg c52b057857d538ff2b6fa4ac0794f169 to all neighbors
+2f881418f3afb1517cc2ef6c4579a0ae is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_9
+Fork detected at peer ID:9 for block ID:c52b057857d538ff2b6fa4ac0794f169
+block recieved at Node_9 
+broadcasting block by Node_9 at 36435.52077550696 of msg c52b057857d538ff2b6fa4ac0794f169 to all neighbors
+new txn gen by Node_1 at time 36452.97340235868
+2f881418f3afb1517cc2ef6c4579a0ae is already present in chain
+block recieved at Node_7 
+new txn gen by Node_4 at time 36477.346543778156
+new block recieved by block by Node_3
+Fork detected at peer ID:3 for block ID:c52b057857d538ff2b6fa4ac0794f169
+block recieved at Node_3 
+broadcasting block by Node_3 at 36527.7889348464 of msg c52b057857d538ff2b6fa4ac0794f169 to all neighbors
+new txn gen by Node_8 at time 36534.67038214726
+2f881418f3afb1517cc2ef6c4579a0ae is already present in chain
+block recieved at Node_0 
+2f881418f3afb1517cc2ef6c4579a0ae is already present in chain
+block recieved at Node_0 
+c52b057857d538ff2b6fa4ac0794f169 is already present in chain
+block recieved at Node_3 
+c52b057857d538ff2b6fa4ac0794f169 is already present in chain
+block recieved at Node_3 
+2f881418f3afb1517cc2ef6c4579a0ae is already present in chain
+block recieved at Node_8 
+new txn gen by Node_7 at time 36686.893578605
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 36688.16046114736 of msg c52b057857d538ff2b6fa4ac0794f169 to all neighbors
+2f881418f3afb1517cc2ef6c4579a0ae is already present in chain
+block recieved at Node_4 
+new txn gen by Node_7 at time 36698.93065490558
+new txn gen by Node_1 at time 36703.40003619767
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 36745.30526289941 of msg c52b057857d538ff2b6fa4ac0794f169 to all neighbors
+c52b057857d538ff2b6fa4ac0794f169 is already present in chain
+block recieved at Node_4 
+2f881418f3afb1517cc2ef6c4579a0ae is already present in chain
+block recieved at Node_7 
+c52b057857d538ff2b6fa4ac0794f169 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_1 at time 36802.15472733346
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 36803.81396828137 of msg c52b057857d538ff2b6fa4ac0794f169 to all neighbors
+c52b057857d538ff2b6fa4ac0794f169 is already present in chain
+block recieved at Node_7 
+new txn gen by Node_8 at time 36817.40602430933
+c52b057857d538ff2b6fa4ac0794f169 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_6 at time 36819.81259602721
+c52b057857d538ff2b6fa4ac0794f169 is already present in chain
+block recieved at Node_7 
+new txn gen by Node_3 at time 36890.263612290626
+genrated id aaa9d4a709d64d9912fa77aee64ae91f
+Generated Block is Valid Block by Node_3 at time 36893.62114607048
+new txn gen by Node_8 at time 36905.36393836104
+c52b057857d538ff2b6fa4ac0794f169 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_3 at time 36935.121421364776
+new txn gen by Node_6 at time 36986.618708720365
+new txn gen by Node_5 at time 37000.92603870458
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 37014.63521712128 of msg aaa9d4a709d64d9912fa77aee64ae91f to all neighbors
+new txn gen by Node_5 at time 37029.68812775737
+genrated id e142ee27c5c45a11e2b13f85816e9584
+Generated Block is Valid Block by Node_6 at time 37035.17652431346
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 37071.90838194963 of msg aaa9d4a709d64d9912fa77aee64ae91f to all neighbors
+new txn gen by Node_6 at time 37073.392740314375
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 37081.13967231615 of msg e142ee27c5c45a11e2b13f85816e9584 to all neighbors
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:aaa9d4a709d64d9912fa77aee64ae91f
+block recieved at Node_2 
+broadcasting block by Node_2 at 37084.911463314485 of msg aaa9d4a709d64d9912fa77aee64ae91f to all neighbors
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 37088.62473724668 of msg e142ee27c5c45a11e2b13f85816e9584 to all neighbors
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 37123.26289202772 of msg aaa9d4a709d64d9912fa77aee64ae91f to all neighbors
+new txn gen by Node_3 at time 37149.88179204749
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:aaa9d4a709d64d9912fa77aee64ae91f
+block recieved at Node_6 
+broadcasting block by Node_6 at 37172.14234600231 of msg aaa9d4a709d64d9912fa77aee64ae91f to all neighbors
+new block recieved by block by Node_9
+Fork detected at peer ID:9 for block ID:aaa9d4a709d64d9912fa77aee64ae91f
+block recieved at Node_9 
+broadcasting block by Node_9 at 37182.77529654243 of msg aaa9d4a709d64d9912fa77aee64ae91f to all neighbors
+new block recieved by block by Node_7
+block recieved at Node_7 
+broadcasting block by Node_7 at 37192.07223497683 of msg aaa9d4a709d64d9912fa77aee64ae91f to all neighbors
+new txn gen by Node_4 at time 37196.68999948494
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 37199.48563791349 of msg e142ee27c5c45a11e2b13f85816e9584 to all neighbors
+aaa9d4a709d64d9912fa77aee64ae91f is already present in chain
+block recieved at Node_7 
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 37218.10340329091 of msg aaa9d4a709d64d9912fa77aee64ae91f to all neighbors
+new txn gen by Node_5 at time 37230.57040327201
+aaa9d4a709d64d9912fa77aee64ae91f is already present in chain
+block recieved at Node_9 
+new txn gen by Node_4 at time 37243.79331940815
+new block recieved by block by Node_3
+Fork detected at peer ID:3 for block ID:e142ee27c5c45a11e2b13f85816e9584
+block recieved at Node_3 
+broadcasting block by Node_3 at 37254.81496302172 of msg e142ee27c5c45a11e2b13f85816e9584 to all neighbors
+e142ee27c5c45a11e2b13f85816e9584 is already present in chain
+block recieved at Node_3 
+aaa9d4a709d64d9912fa77aee64ae91f is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 37296.80056736287 of msg aaa9d4a709d64d9912fa77aee64ae91f to all neighbors
+aaa9d4a709d64d9912fa77aee64ae91f is already present in chain
+block recieved at Node_6 
+new block recieved by block by Node_2
+block recieved at Node_2 
+broadcasting block by Node_2 at 37311.21254382672 of msg e142ee27c5c45a11e2b13f85816e9584 to all neighbors
+new txn gen by Node_7 at time 37315.686238747316
+aaa9d4a709d64d9912fa77aee64ae91f is already present in chain
+block recieved at Node_0 
+new txn gen by Node_5 at time 37344.03395405605
+new txn gen by Node_2 at time 37351.83491239684
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 37375.80099329458 of msg e142ee27c5c45a11e2b13f85816e9584 to all neighbors
+new txn gen by Node_7 at time 37391.584559939925
+new txn gen by Node_0 at time 37405.949689720444
+aaa9d4a709d64d9912fa77aee64ae91f is already present in chain
+block recieved at Node_1 
+aaa9d4a709d64d9912fa77aee64ae91f is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_4
+block recieved at Node_4 
+broadcasting block by Node_4 at 37428.03360298509 of msg e142ee27c5c45a11e2b13f85816e9584 to all neighbors
+aaa9d4a709d64d9912fa77aee64ae91f is already present in chain
+block recieved at Node_0 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 37452.107151210774 of msg e142ee27c5c45a11e2b13f85816e9584 to all neighbors
+aaa9d4a709d64d9912fa77aee64ae91f is already present in chain
+block recieved at Node_1 
+aaa9d4a709d64d9912fa77aee64ae91f is already present in chain
+block recieved at Node_7 
+e142ee27c5c45a11e2b13f85816e9584 is already present in chain
+block recieved at Node_4 
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:e142ee27c5c45a11e2b13f85816e9584
+block recieved at Node_7 
+broadcasting block by Node_7 at 37496.84060995894 of msg e142ee27c5c45a11e2b13f85816e9584 to all neighbors
+new txn gen by Node_3 at time 37512.908267889994
+new txn gen by Node_8 at time 37514.52599680952
+new txn gen by Node_9 at time 37517.3364823313
+e142ee27c5c45a11e2b13f85816e9584 is already present in chain
+block recieved at Node_4 
+new txn gen by Node_3 at time 37535.65926068003
+e142ee27c5c45a11e2b13f85816e9584 is already present in chain
+block recieved at Node_7 
+new txn gen by Node_1 at time 37577.685612311805
+aaa9d4a709d64d9912fa77aee64ae91f is already present in chain
+block recieved at Node_6 
+new txn gen by Node_8 at time 37620.49343529627
+e142ee27c5c45a11e2b13f85816e9584 is already present in chain
+block recieved at Node_0 
+e142ee27c5c45a11e2b13f85816e9584 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_6 at time 37662.13515849757
+new txn gen by Node_3 at time 37744.372241595745
+e142ee27c5c45a11e2b13f85816e9584 is already present in chain
+block recieved at Node_8 
+e142ee27c5c45a11e2b13f85816e9584 is already present in chain
+block recieved at Node_4 
+e142ee27c5c45a11e2b13f85816e9584 is already present in chain
+block recieved at Node_7 
+new txn gen by Node_2 at time 37868.85249494608
+new txn gen by Node_3 at time 37877.169475134455
+new txn gen by Node_0 at time 37896.91453565718
+new txn gen by Node_0 at time 37922.891807975924
+genrated id 571263b8d58abe3954a8c867515097a9
+Generated Block is Valid Block by Node_3 at time 37939.50643084541
+new txn gen by Node_1 at time 37949.38610968763
+new txn gen by Node_7 at time 37958.98828975586
+new txn gen by Node_1 at time 37988.25519469285
+new txn gen by Node_8 at time 38009.30252151101
+new block recieved by block by Node_8
+Fork detected at peer ID:8 for block ID:571263b8d58abe3954a8c867515097a9
+block recieved at Node_8 
+broadcasting block by Node_8 at 38060.51603000519 of msg 571263b8d58abe3954a8c867515097a9 to all neighbors
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:571263b8d58abe3954a8c867515097a9
+block recieved at Node_5 
+broadcasting block by Node_5 at 38117.813270482904 of msg 571263b8d58abe3954a8c867515097a9 to all neighbors
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:571263b8d58abe3954a8c867515097a9
+block recieved at Node_2 
+broadcasting block by Node_2 at 38130.79218227383 of msg 571263b8d58abe3954a8c867515097a9 to all neighbors
+new txn gen by Node_4 at time 38168.33404460198
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:571263b8d58abe3954a8c867515097a9
+block recieved at Node_4 
+broadcasting block by Node_4 at 38169.15177446582 of msg 571263b8d58abe3954a8c867515097a9 to all neighbors
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:571263b8d58abe3954a8c867515097a9
+block recieved at Node_6 
+broadcasting block by Node_6 at 38218.06191829377 of msg 571263b8d58abe3954a8c867515097a9 to all neighbors
+new block recieved by block by Node_9
+Fork detected at peer ID:9 for block ID:571263b8d58abe3954a8c867515097a9
+block recieved at Node_9 
+broadcasting block by Node_9 at 38228.6549674862 of msg 571263b8d58abe3954a8c867515097a9 to all neighbors
+new txn gen by Node_5 at time 38236.11940353651
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:571263b8d58abe3954a8c867515097a9
+block recieved at Node_7 
+broadcasting block by Node_7 at 38237.96410270078 of msg 571263b8d58abe3954a8c867515097a9 to all neighbors
+571263b8d58abe3954a8c867515097a9 is already present in chain
+block recieved at Node_7 
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 38264.02306776931 of msg 571263b8d58abe3954a8c867515097a9 to all neighbors
+new txn gen by Node_9 at time 38276.73551031045
+571263b8d58abe3954a8c867515097a9 is already present in chain
+block recieved at Node_9 
+new txn gen by Node_4 at time 38331.269782705625
+571263b8d58abe3954a8c867515097a9 is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 38342.68862502302 of msg 571263b8d58abe3954a8c867515097a9 to all neighbors
+571263b8d58abe3954a8c867515097a9 is already present in chain
+block recieved at Node_6 
+new txn gen by Node_4 at time 38358.067797428506
+new txn gen by Node_9 at time 38359.596294919604
+571263b8d58abe3954a8c867515097a9 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_2 at time 38424.133128417474
+571263b8d58abe3954a8c867515097a9 is already present in chain
+block recieved at Node_1 
+new txn gen by Node_9 at time 38467.42628194977
+571263b8d58abe3954a8c867515097a9 is already present in chain
+block recieved at Node_4 
+571263b8d58abe3954a8c867515097a9 is already present in chain
+block recieved at Node_0 
+new txn gen by Node_2 at time 38490.4681353724
+571263b8d58abe3954a8c867515097a9 is already present in chain
+block recieved at Node_1 
+new txn gen by Node_0 at time 38509.77870518667
+new txn gen by Node_2 at time 38514.66597111168
+571263b8d58abe3954a8c867515097a9 is already present in chain
+block recieved at Node_7 
+new txn gen by Node_9 at time 38616.86511811654
+new txn gen by Node_2 at time 38616.97505231002
+571263b8d58abe3954a8c867515097a9 is already present in chain
+block recieved at Node_6 
+new txn gen by Node_8 at time 38636.96372703557
+new txn gen by Node_7 at time 38694.1770307002
+new txn gen by Node_2 at time 38722.4107663619
+genrated id 058991991443628d5af6f8cbb763c8cf
+Generated Block is Valid Block by Node_7 at time 38739.479692825174
+new txn gen by Node_2 at time 38779.48398277158
+new txn gen by Node_7 at time 38841.155967512954
+new block recieved by block by Node_3
+Fork detected at peer ID:3 for block ID:058991991443628d5af6f8cbb763c8cf
+block recieved at Node_3 
+broadcasting block by Node_3 at 38887.37580086019 of msg 058991991443628d5af6f8cbb763c8cf to all neighbors
+new txn gen by Node_7 at time 38896.705844512944
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 38965.837163649645 of msg 058991991443628d5af6f8cbb763c8cf to all neighbors
+new txn gen by Node_6 at time 38979.7345085184
+new txn gen by Node_1 at time 38987.67802770161
+new block recieved by block by Node_8
+block recieved at Node_8 
+broadcasting block by Node_8 at 39008.37319882543 of msg 058991991443628d5af6f8cbb763c8cf to all neighbors
+new txn gen by Node_5 at time 39029.70858889572
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:058991991443628d5af6f8cbb763c8cf
+block recieved at Node_5 
+broadcasting block by Node_5 at 39065.6549577131 of msg 058991991443628d5af6f8cbb763c8cf to all neighbors
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:058991991443628d5af6f8cbb763c8cf
+block recieved at Node_2 
+broadcasting block by Node_2 at 39078.64900053746 of msg 058991991443628d5af6f8cbb763c8cf to all neighbors
+058991991443628d5af6f8cbb763c8cf is already present in chain
+block recieved at Node_8 
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:058991991443628d5af6f8cbb763c8cf
+block recieved at Node_4 
+broadcasting block by Node_4 at 39117.06665446911 of msg 058991991443628d5af6f8cbb763c8cf to all neighbors
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:058991991443628d5af6f8cbb763c8cf
+block recieved at Node_6 
+broadcasting block by Node_6 at 39165.89495777611 of msg 058991991443628d5af6f8cbb763c8cf to all neighbors
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 39176.51727971007 of msg 058991991443628d5af6f8cbb763c8cf to all neighbors
+058991991443628d5af6f8cbb763c8cf is already present in chain
+block recieved at Node_4 
+058991991443628d5af6f8cbb763c8cf is already present in chain
+block recieved at Node_9 
+genrated id 1dd973c7585410fc66e46edd0576efd3
+Generated Block is Valid Block by Node_2 at time 39249.40711028686
+new txn gen by Node_4 at time 39255.056453172554
+new txn gen by Node_4 at time 39262.85511945976
+058991991443628d5af6f8cbb763c8cf is already present in chain
+block recieved at Node_2 
+new block recieved by block by Node_0
+block recieved at Node_0 
+broadcasting block by Node_0 at 39290.55038048823 of msg 058991991443628d5af6f8cbb763c8cf to all neighbors
+058991991443628d5af6f8cbb763c8cf is already present in chain
+block recieved at Node_6 
+new txn gen by Node_7 at time 39296.5680783369
+new txn gen by Node_8 at time 39305.25313188376
+new txn gen by Node_6 at time 39318.78302164649
+058991991443628d5af6f8cbb763c8cf is already present in chain
+block recieved at Node_0 
+new txn gen by Node_9 at time 39330.61966972446
+new txn gen by Node_0 at time 39360.25525517686
+new txn gen by Node_9 at time 39398.258860858135
+058991991443628d5af6f8cbb763c8cf is already present in chain
+block recieved at Node_4 
+058991991443628d5af6f8cbb763c8cf is already present in chain
+block recieved at Node_0 
+genrated id e1d5d1ff576800ebe3d05ca6e9592728
+Generated Block is Valid Block by Node_6 at time 39451.39791786758
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 39497.360660877435 of msg e1d5d1ff576800ebe3d05ca6e9592728 to all neighbors
+new block recieved by block by Node_5
+block recieved at Node_5 
+broadcasting block by Node_5 at 39504.862220723335 of msg e1d5d1ff576800ebe3d05ca6e9592728 to all neighbors
+new txn gen by Node_8 at time 39510.742597848846
+new txn gen by Node_9 at time 39512.91274869033
+new txn gen by Node_6 at time 39527.62450221973
+new txn gen by Node_6 at time 39543.504970110196
+new txn gen by Node_5 at time 39550.00639733318
+new txn gen by Node_3 at time 39551.58090557066
+058991991443628d5af6f8cbb763c8cf is already present in chain
+block recieved at Node_6 
+new txn gen by Node_0 at time 39594.78075415254
+new txn gen by Node_8 at time 39607.854745615274
+new block recieved by block by Node_9
+block recieved at Node_9 
+broadcasting block by Node_9 at 39615.7119225791 of msg e1d5d1ff576800ebe3d05ca6e9592728 to all neighbors
+new block recieved by block by Node_1
+block recieved at Node_1 
+broadcasting block by Node_1 at 39625.05253101999 of msg 1dd973c7585410fc66e46edd0576efd3 to all neighbors
+new block recieved by block by Node_3
+broadcasting block by Node_3 at 39671.03410373534 of msg e1d5d1ff576800ebe3d05ca6e9592728 to all neighbors
+new block recieved by block by Node_5
+Fork detected at peer ID:5 for block ID:1dd973c7585410fc66e46edd0576efd3
+broadcasting block by Node_5 at 39694.142540333 of msg 1dd973c7585410fc66e46edd0576efd3 to all neighbors
+new block recieved by block by Node_8
+broadcasting block by Node_8 at 39703.89737652847 of msg 1dd973c7585410fc66e46edd0576efd3 to all neighbors
+e1d5d1ff576800ebe3d05ca6e9592728 is already present in chain
+new block recieved by block by Node_2
+Fork detected at peer ID:2 for block ID:e1d5d1ff576800ebe3d05ca6e9592728
+broadcasting block by Node_2 at 39727.48260809409 of msg e1d5d1ff576800ebe3d05ca6e9592728 to all neighbors
+new block recieved by block by Node_8
+broadcasting block by Node_8 at 39792.024006804015 of msg e1d5d1ff576800ebe3d05ca6e9592728 to all neighbors
+new block recieved by block by Node_6
+Fork detected at peer ID:6 for block ID:1dd973c7585410fc66e46edd0576efd3
+broadcasting block by Node_6 at 39794.38980626554 of msg 1dd973c7585410fc66e46edd0576efd3 to all neighbors
+new block recieved by block by Node_9
+Fork detected at peer ID:9 for block ID:1dd973c7585410fc66e46edd0576efd3
+broadcasting block by Node_9 at 39804.997954712664 of msg 1dd973c7585410fc66e46edd0576efd3 to all neighbors
+new block recieved by block by Node_4
+Fork detected at peer ID:4 for block ID:e1d5d1ff576800ebe3d05ca6e9592728
+broadcasting block by Node_4 at 39844.284904211934 of msg e1d5d1ff576800ebe3d05ca6e9592728 to all neighbors
+new block recieved by block by Node_0
+broadcasting block by Node_0 at 39868.335443718286 of msg e1d5d1ff576800ebe3d05ca6e9592728 to all neighbors
+new block recieved by block by Node_3
+broadcasting block by Node_3 at 39897.283740528634 of msg 1dd973c7585410fc66e46edd0576efd3 to all neighbors
+e1d5d1ff576800ebe3d05ca6e9592728 is already present in chain
+new block recieved by block by Node_7
+Fork detected at peer ID:7 for block ID:e1d5d1ff576800ebe3d05ca6e9592728
+broadcasting block by Node_7 at 39913.11445103484 of msg e1d5d1ff576800ebe3d05ca6e9592728 to all neighbors
+e1d5d1ff576800ebe3d05ca6e9592728 is already present in chain
+1dd973c7585410fc66e46edd0576efd3 is already present in chain
+e1d5d1ff576800ebe3d05ca6e9592728 is already present in chain
+1dd973c7585410fc66e46edd0576efd3 is already present in chain
+e1d5d1ff576800ebe3d05ca6e9592728 is already present in chain
+new block recieved by block by Node_0
+broadcasting block by Node_0 at 40057.61467942179 of msg 1dd973c7585410fc66e46edd0576efd3 to all neighbors
+e1d5d1ff576800ebe3d05ca6e9592728 is already present in chain
+new block recieved by block by Node_4
+broadcasting block by Node_4 at 40114.72361475551 of msg 1dd973c7585410fc66e46edd0576efd3 to all neighbors
+1dd973c7585410fc66e46edd0576efd3 is already present in chain
+1dd973c7585410fc66e46edd0576efd3 is already present in chain
+new block recieved by block by Node_7
+broadcasting block by Node_7 at 40173.26695036107 of msg 1dd973c7585410fc66e46edd0576efd3 to all neighbors
+e1d5d1ff576800ebe3d05ca6e9592728 is already present in chain
+1dd973c7585410fc66e46edd0576efd3 is already present in chain
+1dd973c7585410fc66e46edd0576efd3 is already present in chain
+e1d5d1ff576800ebe3d05ca6e9592728 is already present in chain
+1dd973c7585410fc66e46edd0576efd3 is already present in chain
+e1d5d1ff576800ebe3d05ca6e9592728 is already present in chain
+1dd973c7585410fc66e46edd0576efd3 is already present in chain

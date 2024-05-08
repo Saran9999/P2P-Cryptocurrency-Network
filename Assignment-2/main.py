@@ -133,6 +133,8 @@ class Peer:
         self.txn_itr = None
         self.is_mining = False
         self.p = {}     # Dict for Propagation Delay
+        self.tot_mining = 0
+        self.state0 = False
 
     def Delay(self, other, msg):
         """
@@ -153,7 +155,7 @@ class Peer:
         elif isinstance(msg, Block):
             size = 8 * (10 ** 6)                            # size of block in bits
         else:
-            print("Invalid msg type")
+            # print("Invalid msg type")
             return
         cij = 5 * (10 ** 6)
         if self.is_slow == False and other.is_slow == False:    #checking if both peers are slow or fast
@@ -183,13 +185,15 @@ class Peer:
             msg (Block): The block message to be sent.
             arrv_time (float): Arrival time of the block.
         """
+        if ((self.ID == 0 or self.ID == 1) and not msg.miner.ID == self.ID):
+            return
         for others in self.neighbor:                            #broadcasting to all neighbors
-            # if msg not in others.localchain.chain:
+            if msg not in others.localchain.chain:
                 t = arrv_time + self.Delay(others, msg)
                 others.blkqueue[msg.blkid] = t                      #updating block queue of other peer and putting timestamp
                 tpq.push([others, 6, msg], t)
 
-    def UpdateChain(self, blk, arrival_time):
+    def UpdateChain(self, blk : Block, arrival_time):
         """
         Updates the local blockchain with a received block.
 
@@ -198,7 +202,8 @@ class Peer:
             arrival_time (float): Arrival time of the block.
         """
         validblk = self.checkValidation(blk)                            #checking if block is valid or not depending on transactions in this block
-        if validblk or self.localchain.getLastblk().blkid != blk.plink: #We will add the block in the chain if it is a valid block or a fork
+        if validblk: #We will add the block in the chain if it is a valid block or a fork
+            blen = len(self.localchain.longchain)
             if self.localchain.AddBlock(blk,arrival_time):              #check weather it is present in chain or not
                 print(f"new block recieved by block by {self.name}")
                 self.blkqueue[blk.blkid] = arrival_time                 #updating block queue of this peer and putting timestamp
@@ -210,8 +215,55 @@ class Peer:
                 self.lastblkarrivaltime = arrival_time
                 if not self.is_mining:                                  #if not mining then start mining
                     self.generateblk()
-                if blk.blkid != self.localchain.getLastblk().blkid :    #if block is not a fork then mark transactions as completed
+                # if blk.blkid != self.localchain.getLastblk().blkid :    #if block is not a fork then mark transactions as completed
                     print(f'Fork detected at peer ID:{self.ID} for block ID:{blk.blkid}')
+                alen = len(self.localchain.longchain)
+                if alen == blen:
+                    # Long chain not updated, so return
+                    return
+                # Long chain got updated so check conditions for attacker
+                if (self.ID == 0 or self.ID == 1) :
+                    # length of private chain
+                    temp_height = self.localchain.blkdata[self.localchain.lastplink] + len(self.localchain.private_chain)
+                    # length of longest visible change
+                    lvc = self.localchain.blkdata[self.localchain.getLastblk().blkid]
+                    # print(temp_height-lvc," ",self.ID)
+                    if temp_height - lvc > 1:
+                        # Lead is greater than 2 and new block added in LVC
+                        if self.localchain.AddBlock(self.localchain.private_chain[0],arrival_time):
+                            # Add one block from private chain into main chain
+                            tpq.push([self,4,self.localchain.private_chain[0]],arrival_time) 
+                            self.localchain.lastplink = self.localchain.private_chain[0].blkid
+                            self.localchain.private_chain = self.localchain.private_chain[1:]
+                    if temp_height - lvc == 1:
+                        # Lead of 2 became 1 after adding a block in LVC
+                        for privateblk in self.localchain.private_chain:
+                            # Broadcast all the blocks in private chain
+                            if self.localchain.AddBlock(privateblk,arrival_time):
+                                tpq.push([self,4,privateblk],arrival_time) 
+                        self.localchain.lastplink = self.localchain.private_chain[-1].blkid
+                        self.localchain.private_chain = []
+                    if temp_height - lvc == 0:
+                        # Lead is one and new block added in LVC State 0'
+                        for privateblk in self.localchain.private_chain:
+                            # Broadcast all block
+                            if self.localchain.AddBlock(privateblk,arrival_time) :
+                                tpq.push([self,4,privateblk],arrival_time)
+                        # Mine on his block and empty the private chain
+                        print("State 0'",self.ID)
+                        self.localchain.lastplink = self.localchain.private_chain[-1].blkid
+                        self.localchain.private_chain = []
+                        # This is state 0' which will go to state 0
+                        self.state0 = True
+    
+                    if temp_height - lvc < 0:
+                        # Lead is 0 and new block is added in LVC before attacker
+                        # Start the new attack on last block
+                        if self.state0:
+                            print("State 0' to 0 without attacker block", self.ID)
+                        self.state0 = False
+                        self.localchain.private_chain = []
+                        self.localchain.lastplink = self.localchain.getLastblk().blkid
         return
     
 
@@ -245,6 +297,7 @@ class Peer:
             return
         else:
             amount = random.randint(1,self.balance)
+        # amount = 0
         self.balance = self.balance - amount            #updating balance of sender and receiver after transaction
         recv.balance = self.balance + amount
         tx = Transaction(recv,sender,amount)
@@ -323,11 +376,50 @@ class Peer:
         """
         Generates a new block and initiates the mining process.
         """
-        newblk = Block([], self, self.localchain.getLastblk().blkid) #creating new block with its parent link as last block in local chain
-        print(f'{self.name} started mining...at time {glob_time}')
-        k = glob_time + next(self.blk_itr)                           #waiting for time to mine a block
-        self.is_mining = True
-        tpq.push([self, 5, newblk, []], k)
+        if self.ID != 0  and self.ID !=1:
+            # Honest Nodes
+            newblk = Block([], self, self.localchain.getLastblk().blkid) #creating new block with its parent link as last block in local chain
+            newblk.Txlist = self.findvalidTx(newblk.timestamp)
+            # print(f'{self.name} started mining...at time {glob_time}')
+            k = glob_time + next(self.blk_itr)                           #waiting for time to mine a block
+            self.is_mining = True
+            tpq.push([self, 5, newblk, []], k)
+        else :
+            # attacker nodes
+            if len(self.localchain.private_chain) != 0:
+                # Private chain is not empty so add plink as last blk in private chain
+                newblk = Block([], self, self.localchain.private_chain[-1].blkid)             
+            else :
+                # else add last plink as blk where he wanted to start attack
+                newblk = Block([], self, self.localchain.lastplink)
+            # newblk.Txlist = []
+            k = glob_time + next(self.blk_itr)                           #waiting for time to mine a block
+            self.is_mining = True
+            tpq.push([self, 7,newblk], k)
+           
+            
+    def add_block_attacker(self,blk : Block):
+        """Adding attacker blocks into private chain or broadcasting in state 0
+
+        Args:
+            blk (Block): New block to add into private chain
+        """
+        if self.state0 and blk.plink == self.localchain.lastplink:
+            # Attacker is in state 0' and he generated new block so he goes to state 0 by broadcasting newly generated block
+            if self.localchain.AddBlock(blk,glob_time):
+                self.tot_mining = self.tot_mining + 1
+                tpq.push([self,4,blk],glob_time)
+                # print("State 0' to 0 with attacker block",self.ID)
+                self.state0 = False
+                self.localchain.lastplink = blk.blkid
+        elif len(self.localchain.private_chain) != 0 or blk.plink == self.localchain.lastplink:
+            # If private chain is not empty or new attack and not in state 0'
+            self.localchain.private_chain.append(blk)
+            self.tot_mining = self.tot_mining + 1
+        self.generateblk()
+            
+
+
 
     def checkadd(self, newblk: Block, listoftx):
         """
@@ -338,9 +430,8 @@ class Peer:
             listoftx (list): List of transactions included in the block.
         """
         global UTX
-        # print(f"length of utx is {len(UTX)}")
-        newblk.Txlist = self.findvalidTx(newblk.timestamp)
-        print(f'Checking Block by {self.name} at time {glob_time}')
+        # # print(f"length of utx is {len(UTX)}")
+        # print(f'Checking Block by {self.name} at time {glob_time}')
         if newblk.plink == self.localchain.getLastblk().blkid:          #checking if parent link of this block is still the last block in local chain
             if self.checkValidation(newblk):                            #checking if block is valid or not according to transactions present in it
                 
@@ -353,15 +444,17 @@ class Peer:
                     if self.ID not in self.ballist.keys():
                         self.ballist[self.ID] = 100
                     self.balance = self.ballist[self.ID]
+                   
                     self.sendblock(newblk,glob_time)                    #broadcasting newly genarated block to all neighbors
+                    # self.tot_mining = self.tot_mining + 1
                     if newblk in self.localchain.longchain:
                         self.marktxcomp(listoftx)                       #marking transactions as completed if block is added to local chain
                     self.is_mining = False                              #mining is completed
             else:
-                print('Generated Block is not Valid Block')
+                # print('Generated Block is not Valid Block')
                 UTX = UTX + listoftx
         else:
-            print(f'longchain is updated before mining completed at node {self.name}')
+            # print(f'longchain is updated before mining completed at node {self.name}')
             self.is_mining = True                                   #again start mining as local chain is updated and and genarated block is not valid to be added to local chain
             self.generateblk()
             UTX = UTX + listoftx                                    #if block is not added to local chain then add transactions back to UTX
@@ -371,37 +464,43 @@ class Peer:
 
 
 class Network:
-    def __init__(self, num, z0, z1, Ttx, Tk):
+    def __init__(self, num, Ttx, Tk, C1, C2):
         """
         Initializes a network of peers.
 
         Args:
             num (int): Total number of peers in the network.
-            z0 (float): Percentage of slow peers in the network (0-100).
-            z1 (float): Percentage of peers with low CPU speed in the network (0-100).
             Ttx (float): Mean time between transaction generations.
             Tk (float): Mean time between block generation attempts.
+            C1 (float): Mining power of the attacker 1.
+            C2 (float): Mining power of the attackers 2.
         """
         self.n = num
-        self.slow = int(z0 * self.n / 100)
-        self.lowcpu = int(z1 * self.n / 100)
-        self.all_peers = np.array([Peer(f'Node_{i}', i) for i in range(self.n)])
+        self.all_peers = [Peer(f'Node_{i}', i) for i in range(self.n)]
+        self.all_peers[0].is_slow = False
+        self.all_peers[1].is_slow = False
+        self.all_peers[0].cpuspeed = C1 
+        self.all_peers[1].cpuspeed = C2  
+        # Creates graph
         self.graph = self.createNetwork()
-        arrz0 = np.array([False for _ in range(self.n)])
-        arrz0[:self.slow] = True
-        arrz1 = np.array([10 for _ in range(self.n)])
-        arrz1[:self.lowcpu] = 1
+        num_honest = num - 2
+        num_slow = num_honest // 2
+        num_fast = num_honest - num_slow
+        arrz0 = np.array([False] * num_slow + [True] * num_fast)
         np.random.shuffle(arrz0)
-        np.random.shuffle(arrz1)
-        k = np.sum(arrz1)
+        rem_hashing_power = (100-C1-C2)/(num_honest)
+        arrz1 = np.array([rem_hashing_power for _ in range(num_honest)])
+        for i in range(2, self.n):
+            # self.all_peers.append(Peer(f'Node_{i}', i))
+            self.all_peers[i].is_slow = arrz0[i-2]
+            self.all_peers[i].cpuspeed = arrz1[i-2]      
+        k = np.sum(arrz1) + C1 + C2
         for i in range(self.n):
-            self.all_peers[i].is_slow = arrz0[i]            #setting slow and low cpu speed peers
-            self.all_peers[i].cpuspeed = arrz1[i] / k       #setting cpu speed of peers
-        
+            self.all_peers[i].cpuspeed = self.all_peers[i].cpuspeed/k   
         for i in range(self.n):
             self.all_peers[i].txn_itr = exponential_iterator(Ttx)       #setting mean time between transaction generations
             self.all_peers[i].blk_itr = exponential_iterator(Tk / (self.all_peers[i].cpuspeed))
-            print(Ttx, Tk / (self.all_peers[i].cpuspeed))
+            # print(Ttx, Tk / (self.all_peers[i].cpuspeed))
 
     def createNetwork(self):
         """
@@ -442,9 +541,9 @@ class Network:
         for i in range(self.n):
             random_number = random.choice([num for num in range(self.n) if num != i])
             k = self.all_peers[random_number]   
-            tpq.push([self.all_peers[i], 1, k], 30*i)                  #pushing transaction generation event for each peer
+            tpq.push([self.all_peers[i], 1, k], 0)                  #pushing transaction generation event for each peer
         for i in range(self.n):
-            tpq.push([self.all_peers[i], 3],30*i)                     #all peers start mining at time 0
+            tpq.push([self.all_peers[i], 3],0)                     #all peers start mining at time 0
 
         return G
         
@@ -455,24 +554,26 @@ class Network:
         visulising network formed by peers and their connections using matplotlib
         """
         nx.draw(self.graph, nx.spring_layout(self.graph), with_labels=True, font_weight='bold')
-        plt.show()
+        plt.savefig("network.png")
 
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Peer2Peer Network')
     parser.add_argument('n', type=int, help='Number of Peers')
-    parser.add_argument('z0', type=float, help='Percent of slow')
-    parser.add_argument('z1', type=float, help='Percent of low CPU') 
+    # parser.add_argument('z0', type=float, help='Percent of slow')
+    # parser.add_argument('z1', type=float, help='Percent of low CPU') 
     parser.add_argument('Ttx', type=float, help='Mean Time of exponential distribution for Tx')
     parser.add_argument('Tk', type=float, help='Mean Time of exponential distribution for blk')
+    parser.add_argument('C1',type=float, help='Mining power of attacker1')
+    parser.add_argument('C2',type=float, help='Mining power of attacker2')
     parser.add_argument('N',type=int,help='Number of Blocks to create')
     args = parser.parse_args()
-    arg1 = args.n
-    arg2 = args.z0
-    arg3 = args.z1
-    arg4 = args.Ttx
-    arg5 = args.Tk
+    arg1 = args.n   
+    arg2 = args.Ttx
+    arg3 = args.Tk
+    arg4 = args.C1
+    arg5 = args.C2
     N = args.N
 
     tpq = TimedPriorityQueue()                  #creating a priority queue for maintaining events
@@ -486,6 +587,7 @@ if __name__ == "__main__":
     #4  ->send blk
     #5  ->check blockhash with longest chain before addding block
     #6  ->updating block chain of a peer
+    #7  ->genrating new block for attacker add_block_attacker
 
 
 
@@ -527,18 +629,63 @@ if __name__ == "__main__":
             variable_list[0].UpdateChain(variable_list[2],glob_time)                         #updating local chain of a peer and broadcasting block to all neighbors
             print(f"block recieved at {variable_list[0].name} ")
             # count +=1
+        if variable_list[1] == 7:
+            glob_time = ts
+            variable_list[0].add_block_attacker(variable_list[2])
+
             
         
         if count == N:                                             #stopping simulation after genrating certain no of blocks
             break
-    if not os.path.exists('Blockchain_Trees'):
-        os.makedirs('Blockchain_Trees')
-    for i in range(network.n):                                       #visualizing blockchain of each peer
-        network.all_peers[i].localchain.visualize_blockchain(f'Blockchain_Trees/blockchain_{i}')
     
+    while tpq.heap:
+        ts, variable_list = tpq.pop()
+        if variable_list[1] == 4:
+            glob_time =ts
+            print(f"broadcasting block by {variable_list[0].name} at {glob_time} of msg {variable_list[2].blkid} to all neighbors")
+            variable_list[0].sendblock(variable_list[2],glob_time)  
+        if variable_list[1] == 6:
+            glob_time = ts
+            variable_list[0].UpdateChain(variable_list[2],glob_time)
+
+    # checks if folder exists or not
     if not os.path.exists('Trees'):
         os.makedirs('Trees')
-
+    # writing blockchain into file
     for i in range(network.n):
         tree = Tree(network.all_peers[i].localchain,f'Trees/Node_{i}.txt')
         tree.Print()
+    # checks if folder exists or not
+    if not os.path.exists('Blockchain_Trees'):
+        os.makedirs('Blockchain_Trees')
+    # writing blockchain into picture
+    for i in range(network.n):                                       #visualizing blockchain of each peer
+        network.all_peers[i].localchain.visualize_blockchain(f'Blockchain_Trees/blockchain_{i}')
+
+    # num_attacker_1 = 0
+    # tot_attacker_1 = network.all_peers[0].tot_mining                # Total num of blocks mined by attacker 1
+    # num_attacker_2 = 0
+    # tot_attacker_2 = network.all_peers[1].tot_mining                # Total num of blocks mined by attacker 2
+    # for blk in network.all_peers[3].localchain.longchain[1:]:
+    #     # Finding number of blocks by attackers in main chain
+    #     if blk.miner.ID == 0:
+    #         num_attacker_1 = num_attacker_1 + 1
+    #     elif blk.miner.ID == 1:
+    #         num_attacker_2 = num_attacker_2 + 1
+    # num_overall = len(network.all_peers[0].localchain.longchain)
+    # tot_overall = len(network.all_peers[0].localchain.chain)
+    # print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+    # print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+    # print("Number of blocks mined by attacker 1 in final public main chain : " + str(num_attacker_1))
+    # print("Total number of blocks mined by attacker 1 overall : " + str(tot_attacker_1))
+    # print("Number of blocks mined by attacker 2 in final public main chain : " + str(num_attacker_2))
+    # print("Total number of blocks mined by attacker 2 overall : " + str(tot_attacker_2))
+    # print("Number of block in the final public main chain : " + str(num_overall))
+    # print("Total number of blocks generated across all the nodes : " + str(tot_overall))
+    # print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+    # print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+    # print("MPU_node_attacker1 : " + str(num_attacker_1/tot_attacker_1))
+    # print("MPU_node_attacker2 : " + str(num_attacker_2/tot_attacker_2))
+    # print("MPU_node_overall : " + str(num_overall/tot_overall))
+    # print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+    # print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")

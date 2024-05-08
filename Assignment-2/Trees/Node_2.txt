@@ -1,0 +1,129 @@
+Block ID: 00000000000000000000000000000000
+|__ Miner: Genesis Block
+|__ Size: 1KB
++- Block ID: 90b0a91c0c852e1d81ea09cd08eaacb8
++- |__ Miner: Node_2
++- |__ Size: 11KB
++- Block ID: bf638cbf86a65b546b0f3469a58f783b
++- |__ Miner: Node_7
++- |__ Size: 1KB
++- Block ID: c0330ad4f8d1772aaea368dc30e41f57
++- |__ Miner: Node_1
++- |__ Size: 1KB
+   +- Block ID: 1d1f90c6300528cc624de98e48652e37
+   +- |__ Miner: Node_1
+   +- |__ Size: 1KB
+      +- Block ID: f9c76d7301a027068a42d48511c1e457
+      +- |__ Miner: Node_2
+      +- |__ Size: 30KB
+      +- Block ID: ef4394064851f1823de78f54bbe94783
+      +- |__ Miner: Node_1
+      +- |__ Size: 1KB
+         +- Block ID: 9449d0525bef89d702881bfee06df830
+         +- |__ Miner: Node_3
+         +- |__ Size: 18KB
+         |  +- Block ID: 430aa66cb6b24f80b68cbbc2947187d1
+         |  +- |__ Miner: Node_5
+         |  +- |__ Size: 26KB
+         |     +- Block ID: df112f176e647093bf421adf993172e7
+         |     +- |__ Miner: Node_5
+         |     +- |__ Size: 22KB
+         |        +- Block ID: 3708c3c5f2711cffaef8e1c5a49431b4
+         |        +- |__ Miner: Node_7
+         |        +- |__ Size: 9KB
+         |           +- Block ID: 178bddfc6c93aa92a34c9c5652c6e630
+         |           +- |__ Miner: Node_9
+         |           +- |__ Size: 4KB
+         |           |  +- Block ID: cef7496d48d475f4a563a79da395ddae
+         |           |  +- |__ Miner: Node_2
+         |           |  +- |__ Size: 3KB
+         |           |  +- Block ID: c2ddbf83c6c0400acdb71d69a74491e8
+         |           |  +- |__ Miner: Node_4
+         |           |  +- |__ Size: 28KB
+         |           |     +- Block ID: a0f6d19537d619c55c8b34b57e9d467c
+         |           |     +- |__ Miner: Node_7
+         |           |     +- |__ Size: 16KB
+         |           |     |  +- Block ID: f99e1ddb9ed2d334fe165f96056f0263
+         |           |     |  +- |__ Miner: Node_4
+         |           |     |  +- |__ Size: 9KB
+         |           |     |     +- Block ID: 3e51610d6ac005ae2a8b93e76fab84c2
+         |           |     |     +- |__ Miner: Node_4
+         |           |     |     +- |__ Size: 15KB
+         |           |     |        +- Block ID: 617147f41b3b1e4e03a4150c935c3c20
+         |           |     |        +- |__ Miner: Node_4
+         |           |     |        +- |__ Size: 16KB
+         |           |     |           +- Block ID: 5ee564878cd977fb67998bf4bdada7fa
+         |           |     |           +- |__ Miner: Node_6
+         |           |     |           +- |__ Size: 15KB
+         |           |     |           |  +- Block ID: 7f60a903c6cb95df6efc4c960e802750
+         |           |     |           |  +- |__ Miner: Node_5
+         |           |     |           |  +- |__ Size: 14KB
+         |           |     |           |     +- Block ID: eedab5224d7dda7481af551eb4c983a8
+         |           |     |           |     +- |__ Miner: Node_3
+         |           |     |           |     +- |__ Size: 9KB
+         |           |     |           |        +- Block ID: f63c3cec9959edd0342def177136c18a
+         |           |     |           |        +- |__ Miner: Node_2
+         |           |     |           |        +- |__ Size: 12KB
+         |           |     |           |        |  +- Block ID: 149ba5ea0a333068dea20573f696fd09
+         |           |     |           |        |  +- |__ Miner: Node_2
+         |           |     |           |        |  +- |__ Size: 10KB
+         |           |     |           |        |  +- Block ID: bd67cc0e65d10776028ef07375996809
+         |           |     |           |        |  +- |__ Miner: Node_9
+         |           |     |           |        |  +- |__ Size: 6KB
+         |           |     |           |        |     +- Block ID: 3de46cc8b49d3d6f37119410ed416d93
+         |           |     |           |        |     +- |__ Miner: Node_9
+         |           |     |           |        |     +- |__ Size: 5KB
+         |           |     |           |        |        +- Block ID: 13834f0ba432b5e9a90b9bdea9e862f8
+         |           |     |           |        |        +- |__ Miner: Node_3
+         |           |     |           |        |        +- |__ Size: 16KB
+         |           |     |           |        |           +- Block ID: f2194b29eb54c8c75d085f2bdbaf0dc9
+         |           |     |           |        |           +- |__ Miner: Node_3
+         |           |     |           |        |           +- |__ Size: 16KB
+         |           |     |           |        |              +- Block ID: c52b057857d538ff2b6fa4ac0794f169
+         |           |     |           |        |              +- |__ Miner: Node_2
+         |           |     |           |        |              +- |__ Size: 12KB
+         |           |     |           |        |              +- Block ID: 2f881418f3afb1517cc2ef6c4579a0ae
+         |           |     |           |        |              +- |__ Miner: Node_6
+         |           |     |           |        |              +- |__ Size: 17KB
+         |           |     |           |        |                 +- Block ID: aaa9d4a709d64d9912fa77aee64ae91f
+         |           |     |           |        |                 +- |__ Miner: Node_3
+         |           |     |           |        |                 +- |__ Size: 25KB
+         |           |     |           |        |                 |  +- Block ID: 571263b8d58abe3954a8c867515097a9
+         |           |     |           |        |                 |  +- |__ Miner: Node_3
+         |           |     |           |        |                 |  +- |__ Size: 4KB
+         |           |     |           |        |                 |     +- Block ID: 058991991443628d5af6f8cbb763c8cf
+         |           |     |           |        |                 |     +- |__ Miner: Node_7
+         |           |     |           |        |                 |     +- |__ Size: 15KB
+         |           |     |           |        |                 |        +- Block ID: 1dd973c7585410fc66e46edd0576efd3
+         |           |     |           |        |                 |        +- |__ Miner: Node_2
+         |           |     |           |        |                 |        +- |__ Size: 8KB
+         |           |     |           |        |                 |        +- Block ID: e1d5d1ff576800ebe3d05ca6e9592728
+         |           |     |           |        |                 |        +- |__ Miner: Node_6
+         |           |     |           |        |                 |        +- |__ Size: 15KB
+         |           |     |           |        |                 +- Block ID: e142ee27c5c45a11e2b13f85816e9584
+         |           |     |           |        |                 +- |__ Miner: Node_6
+         |           |     |           |        |                 +- |__ Size: 11KB
+         |           |     |           |        +- Block ID: c2fcb9c12b75e9c91df6af928df08d6f
+         |           |     |           |        +- |__ Miner: Node_3
+         |           |     |           |        +- |__ Size: 24KB
+         |           |     |           |           +- Block ID: f1cb97bb111f74398d31ec1ff347c970
+         |           |     |           |           +- |__ Miner: Node_3
+         |           |     |           |           +- |__ Size: 4KB
+         |           |     |           |           +- Block ID: 67d95b464a5ab13af613403627be7525
+         |           |     |           |           +- |__ Miner: Node_7
+         |           |     |           |           +- |__ Size: 11KB
+         |           |     |           +- Block ID: 8af21316d0de609cef482fd437b31b9c
+         |           |     |           +- |__ Miner: Node_7
+         |           |     |           +- |__ Size: 15KB
+         |           |     +- Block ID: c96bfc9e063191897e5b8b393ab46268
+         |           |     +- |__ Miner: Node_0
+         |           |     +- |__ Size: 1KB
+         |           +- Block ID: c1a3cfc00f531524f05f64209a299e37
+         |           +- |__ Miner: Node_0
+         |           +- |__ Size: 1KB
+         +- Block ID: 27fcfc72b4f539bae1450896c94c820b
+         +- |__ Miner: Node_1
+         +- |__ Size: 1KB
+            +- Block ID: a8379a62d95f998f60d069da63198203
+            +- |__ Miner: Node_1
+            +- |__ Size: 1KB
